@@ -1,125 +1,124 @@
 ---
-title: "Event 2"
-date: 2024-01-01
+title: "Event 4"
+date: 2026-07-05
 weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “FCAJ Community Day 27/06”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Giới thiệu các giải pháp AI Agents và AgenticOps nhằm hiện đại hóa quy trình vận hành trên nền tảng Cloud.
+- Chia sẻ các ứng dụng AI trong DevOps, Voice Agents và quản trị doanh nghiệp.
+- Hướng dẫn xây dựng các kết nối bảo mật cho hệ thống AI và Amazon Q.
+- Cập nhật xu hướng ứng dụng AI nhằm nâng cao hiệu suất làm việc và tối ưu hóa vận hành doanh nghiệp.
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Steve Tran** - AgenticOps for Cloud Operations
+- **Trung Vu, Nghi Danh, Kiet Tran** - Building Voice Agent at Scale 
+- **Bao Phan ,Nguyen Nguyen** - AWS DevOps Agent
+- **Truong (Wayne) Tran, Anh Dang (Akie)** - AI-Powered Productivity
+- **Nguyễn Đức Toàn, Danh Hoàng Hữu Nghị** - Secure Private MCP for Amazon Q
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### AgenticOps for Cloud Operations
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- Giới thiệu khái niệm **AgenticOps**, ứng dụng AI Agents vào quá trình vận hành hạ tầng Cloud.
+- Tự động hóa các tác vụ giám sát, vận hành và xử lý sự cố.
+- Giảm khối lượng công việc thủ công cho đội ngũ vận hành.
+- Hướng đến mô hình quản trị Cloud thông minh với các AI Agents hoạt động liên tục.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### AWS DevOps Agent
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Giới thiệu **AWS DevOps Agent** như một trợ lý hỗ trợ đội ngũ DevOps.
+- Hỗ trợ xử lý các tác vụ vận hành, giám sát và phản hồi sự cố.
+- Tăng tốc độ xử lý và nâng cao hiệu quả trong quá trình quản trị hệ thống.
+- Minh họa vai trò của AI trong việc hỗ trợ kỹ sư Cloud và DevOps.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Secure Private MCP for Amazon Q
 
-#### Domain-Driven Design (DDD)
+- Chia sẻ kinh nghiệm xây dựng **Secure Private MCP** cho Amazon Q.
+- Đảm bảo kết nối riêng tư giữa AI và hệ thống doanh nghiệp.
+- Tăng cường bảo mật dữ liệu trong quá trình triển khai AI.
+- Nhấn mạnh vai trò của bảo mật trong toàn bộ hành trình ứng dụng AI vào doanh nghiệp.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+#### Building Voice Agent at Scale
 
-#### Event-Driven Architecture
+- Giới thiệu quy trình xây dựng **Voice Agent** quy mô lớn.
+- Xử lý dữ liệu âm thanh theo thời gian thực (Real-time Audio).
+- Thiết kế **Agent Runtime** phục vụ triển khai trong môi trường thực tế.
+- Đảm bảo khả năng mở rộng và hiệu suất khi số lượng người dùng tăng cao.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### AI-Powered Productivity
 
-#### Compute Evolution
+- Ứng dụng AI vào bài toán **Workforce Planning** trong doanh nghiệp.
+- Hỗ trợ phân bổ nguồn lực và tối ưu hiệu suất làm việc.
+- Giúp doanh nghiệp đưa ra quyết định dựa trên dữ liệu và AI.
+- Minh họa khả năng AI hỗ trợ quản lý và nâng cao năng suất tổ chức.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
 
 ### Những Gì Học Được
 
 #### Tư Duy Thiết Kế
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- **Agent-first mindset**: Xây dựng các AI Agents có khả năng tự động thực hiện và phối hợp nhiều tác vụ thay vì chỉ sử dụng các công cụ đơn lẻ.
+- **Security-first approach**: Bảo mật cần được ưu tiên ngay từ giai đoạn thiết kế các hệ thống AI.
+- Luôn kết hợp giữa Cloud, AI và dữ liệu để xây dựng các giải pháp hiện đại và có khả năng mở rộng.
 
 #### Kiến Trúc Kỹ Thuật
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- Hiểu rõ mô hình AgenticOps và cách AI hỗ trợ vận hành hạ tầng Cloud.
+- Nắm được kiến trúc triển khai **Voice Agent** từ xử lý âm thanh đến Agent Runtime.
+- Hiểu cách **AI-powered Workforce Planning** hỗ trợ doanh nghiệp tối ưu nguồn lực.
+- Tiếp cận phương pháp xây dựng **Secure Private MCP** nhằm bảo vệ dữ liệu khi triển khai các ứng dụng AI.
 
-#### Chiến Lược Hiện Đại Hóa
+#### Định Hướng Phát Triển
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Nhận thức được xu hướng ứng dụng AI Agents trong Cloud Operations và DevOps.
+- Hiểu rằng khả năng kết hợp AI với Cloud sẽ trở thành một kỹ năng quan trọng trong tương lai.
+- Học được cách cân bằng giữa hiệu quả tự động hóa và các yêu cầu về bảo mật trong hệ thống AI.
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- **Nghiên cứu triển khai DevOps Agent** nhằm hỗ trợ giám sát và xử lý các tác vụ vận hành trong môi trường Cloud.
+- **Tìm hiểu Agent Runtime** để phát triển các ứng dụng tương tác bằng giọng nói cho các hệ thống thông minh.
+- **Áp dụng AI-powered Workforce Planning** trong việc lập kế hoạch và phân bổ nguồn lực cho các dự án.
+- **Nghiên cứu Secure Private MCP** nhằm xây dựng các kết nối an toàn giữa AI và hệ thống doanh nghiệp.
+- Chủ động cập nhật các giải pháp AgenticOps để nâng cao hiệu quả quản trị Cloud trong các dự án thực tế.
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham gia **FCAJ Community Day 27/06** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn rõ hơn về xu hướng ứng dụng AI Agents trong vận hành Cloud và quản trị doanh nghiệp hiện đại. Một số trải nghiệm nổi bật:
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Học hỏi từ các diễn giả có nhiều kinh nghiệm
+- Các diễn giả đến từ AWS và các đối tác như **Cloud Kinetics, Renova**, đã chia sẻ nhiều kinh nghiệm thực tế về AI Agents, DevOps và AI Security.
+- Nội dung được trình bày thông qua các tình huống thực tế, giúp người tham dự hiểu rõ cách triển khai AI trong doanh nghiệp.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+#### Tiếp cận các công nghệ hiện đại
+- Hiểu rõ hơn về mô hình **AgenticOps**, trong đó AI Agents hỗ trợ vận hành hạ tầng Cloud một cách tự động và liên tục.
+- Tìm hiểu quy trình xây dựng **Voice Agent** với khả năng xử lý dữ liệu thời gian thực và mở rộng cho môi trường sản xuất.
+- Tiếp cận mô hình **AI-powered Workforce Planning**, giúp doanh nghiệp tối ưu hóa việc quản lý nguồn nhân lực bằng AI.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+#### Bảo mật trong hành trình triển khai AI
+- Chủ đề **Secure Private MCP** giúp tôi nhận thức rõ hơn về vai trò của bảo mật trong quá trình tích hợp AI với hệ thống doanh nghiệp.
+- Hiểu rằng việc xây dựng các kết nối riêng tư và bảo vệ dữ liệu là yếu tố quan trọng để AI có thể được triển khai an toàn trong môi trường thực tế.
 
 #### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+- Community Day tạo cơ hội gặp gỡ các chuyên gia và những người đang làm việc trong lĩnh vực Cloud, AI và DevOps.
+- Qua các phiên trao đổi, tôi hiểu thêm về xu hướng phát triển của AI Agents cũng như những kỹ năng cần chuẩn bị để thích nghi với sự thay đổi của ngành công nghệ.
 
 #### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- **AI Agents** đang trở thành xu hướng quan trọng trong việc hiện đại hóa vận hành Cloud và hỗ trợ các đội ngũ DevOps.
+- Việc triển khai AI hiệu quả không chỉ phụ thuộc vào khả năng tự động hóa mà còn phải đảm bảo bảo mật, khả năng mở rộng và độ tin cậy của hệ thống.
+- Những giải pháp như **AgenticOps, Voice Agent** và **AI-powered Workforce Planning** cho thấy AI có thể hỗ trợ con người nâng cao năng suất và chất lượng công việc trong nhiều lĩnh vực khác nhau.
+- Để theo kịp xu hướng phát triển của Cloud và AI, cần liên tục cập nhật kiến thức, rèn luyện kỹ năng thực hành và chủ động tiếp cận các công nghệ mới.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![Ảnh 1](/images/event2.jpg)
+![Ảnh 2](/images/event21.jpg)
+![Ảnh 3](/images/event22.jpg)
