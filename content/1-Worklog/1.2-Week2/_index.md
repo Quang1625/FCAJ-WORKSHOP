@@ -19,12 +19,10 @@ pre: " <b> 1.2. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | :---: | :--- | :---: | :---: | :--- |
-
 | **Tue** | - Get familiar with the AWS Management Console interface <br> - Install and configure AWS CLI on the personal computer (*Access Key, Secret Key, Default Region*) <br> - Hands-on: Execute basic AWS CLI commands to check resources | 28/04/2026 | 28/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
 | **Wed** | - Grasp basic Amazon EC2 services: *Instance categories, AMI (Amazon Machine Image), EBS (Elastic Block Store), Elastic IP* <br> - Learn about security methods and SSH connection from a workstation to EC2 | 29/04/2026 | 29/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
 | **Thu** | - **Practical Technical Lab Deployment**: <br>&emsp; + Provision a complete EC2 instance in practice <br>&emsp; + Create and attach an additional EBS volume <br>&emsp; + Connect via SSH and manage resources concurrently via Console & CLI | 30/04/2026 | 30/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
 
----
 
 ###  Week 2 Achievements
 
