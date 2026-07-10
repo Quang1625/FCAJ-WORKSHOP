@@ -1,41 +1,27 @@
 ---
-title: "Worklog Tuần 1"
+title: "Nhật ký công việc Tuần 1"
 date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
+### Mục tiêu Tuần 1:
+* **Tham gia sự kiện Khởi động (Kickoff) AWS First Cloud AI Journey**: Nắm bắt các quy định của dự án, văn hóa nội bộ và giao lưu (network) với các thành viên của đội ngũ kỹ thuật.
+* **Thiết lập thành công tài khoản AWS cá nhân**: Cập nhật phương thức thanh toán và cấu hình cảnh báo ngân sách (AWS Budgets cho tài khoản AWS Free Tier) để phục vụ cho việc học tập, nghiên cứu và làm quen với AWS Console & CLI.
 
-### Mục tiêu tuần 1
+### Các nhiệm vụ thực hiện trong tuần này:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - **Sự kiện Khởi động:** Tham gia sự kiện Kickoff AWS First Cloud AI Journey <br>&emsp; + Ghi chú các quy định, cột mốc của dự án và văn hóa nội bộ | 17/04/2026 | 17/04/2026 | Internal Project Docs |
+| 2 | - **Giao lưu & Thiết lập:** <br>&emsp; + Kết nối với các thành viên trong đội ngũ kỹ thuật <br>&emsp; + Thiết lập các công cụ giao tiếp và cộng tác nội bộ | 17/04/2026 | 17/04/2026 | Internal Project Docs |
+| 3 | - **Tạo tài khoản AWS:** <br>&emsp; + Đăng ký tài khoản AWS Free Tier <br>&emsp; + Cập nhật và xác minh phương thức thanh toán | 18/04/2026 | 18/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - **Quản lý chi phí:** <br>&emsp; + Truy cập AWS Billing <br>&emsp; + Cấu hình AWS Budgets và thiết lập cảnh báo qua email để tránh các khoản phí vượt mức Free Tier không mong muốn | 18/04/2026 | 18/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Làm quen Console & CLI:** <br>&emsp; + Khám phá AWS Management Console (Bảng điều khiển quản lý AWS) <br>&emsp; + Cài đặt và cấu hình AWS CLI trên máy tính cá nhân (local) | 18/04/2026 | 18/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
-* **Góp mặt tại sự kiện Kickoff AWS First Cloud AI Journey**: Nắm bắt các quy chế của dự án, văn hóa nội bộ và giao lưu với các thành viên thuộc đội ngũ kỹ thuật.
-* **Thiết lập tài khoản AWS cá nhân**: Cập nhật phương thức thanh toán và cài đặt cảnh báo ngân sách (AWS Budgets đối với tài khoản AWS Free Tier) nhằm phục vụ quá trình học tập, nghiên cứu và làm quen với AWS Console & CLI.
-* **Hoàn tất các bài tập trên AWS Console**: Thu thập tổng cộng **$200 USD AWS Credits** để tối ưu chi phí trong quá trình thực hành với các dịch vụ có tính phí.
-* **Tổng quan hóa hệ sinh thái dịch vụ AWS**: Tìm hiểu các nhóm dịch vụ chính (*Compute, Storage, Networking, Database*, v.v.), kiến trúc hệ thống và cách tính phí của AWS nhằm chuẩn bị cho việc thiết kế, triển khai hạ tầng tối ưu và tiết kiệm trong tương lai.
-
----
-
-###  Các công việc cần triển khai trong tuần này
-
-| Thứ | Hạng mục công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu tham khảo |
-| :---: | :--- | :---: | :---: | :--- |
-| **2** | - Tham gia buổi Kickoff chương trình AWS First Cloud AI Journey <br> - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định, văn hóa làm việc tại đơn vị | 17/04/2026 | 17/04/2026 | |
-| **3** | - Tìm hiểu tổng quan về AWS và mô hình tính phí <br> - Nghiên cứu sơ bộ các nhóm dịch vụ cốt lõi: *Compute, Storage, Networking, Database, ...* | 18/04/2026 | 18/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **4** | - Khởi tạo tài khoản AWS Free Tier cá nhân <br> - Thiết lập phương thức thanh toán và cấu hình quản lý ngân sách (Budget) chống phát sinh chi phí <br> - Thực hiện nhiệm vụ trên AWS Console để nhận 200 USD Credit | 20/04/2026 | 20/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **5** | - Tìm hiểu giao diện AWS Management Console <br> - Cài đặt và cấu hình AWS CLI trên máy tính cá nhân (*Access Key, Secret Key, Default Region*) <br> - Thực hành: Sử dụng các lệnh AWS CLI cơ bản | 21/04/2026 | 21/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **6** | - Tìm hiểu dịch vụ Amazon EC2 cơ bản: *Instance types, AMI, EBS, Elastic IP* <br> - Nghiên cứu các phương thức kết nối SSH từ máy trạm vào EC2 | 22/04/2026 | 22/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **7** | - **Thực hành Lab kỹ thuật**: <br>&emsp; + Khởi tạo EC2 instance hoàn chỉnh <br>&emsp; + Tạo và gắn thêm EBS volume <br>&emsp; + Thực hiện kết nối SSH và quản lý tài nguyên song song qua Console & CLI | 23/04/2026 | 23/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-
----
-
-###  Kết quả đạt được tuần 1
-
-| Thứ | Hạng mục | Kết quả đạt được chi tiết | Minh chứng / Hình ảnh |
-| :---: | :--- | :--- | :---: |
-| **2** | **Kickoff & Hội nhập** | Nắm rõ nội quy, quy chế thực tập và văn hóa làm việc tại dự án; kết nối thành công với các thành viên trong đội ngũ kỹ thuật. | *(Hình ảnh minh họa buổi Kickoff)* |
-| **3** | **Cốt lõi Cloud & Hạ tầng AWS** | Học **Module 1 (Phần 1: Các Khái Niệm Cốt Lõi & Hạ Tầng AWS)**: <br> - **Điện toán đám mây**: Thuê tài nguyên IT qua Internet với mô hình *Pay-as-you-go* thay vì mua phần cứng on-premises. Tối ưu chi phí đầu tư, tăng tốc độ phát triển và dễ mở rộng toàn cầu. <br> - **Hạ tầng toàn cầu**: <br>&emsp; • *Data Center*: Trung tâm dữ liệu vật lý tối ưu của AWS. <br>&emsp; • *Availability Zone (AZ)*: Cụm trung tâm dữ liệu cách xa nhau để cô lập lỗi (khuyến nghị chạy trên tối thiểu 2 AZ). <br>&emsp; • *Region*: Khu vực địa lý lớn chứa tối thiểu 3 AZ. <br>&emsp; • *Edge Location & Local Zone*: Máy chủ biên đặt gần người dùng (đã có tại VN) làm bộ nhớ đệm giúp tải dữ liệu cực nhanh qua CloudFront. | *(Hình ảnh sơ đồ hạ tầng toàn cầu AWS)* |
-| **4** | **Tài khoản & Nhận Credits** | Đăng ký thành công tài khoản AWS cá nhân; cấu hình AWS Budgets để kiểm soát chi phí. Hoàn thành chuỗi tác vụ *AWS Cloud Explorer Tasks* để làm quen với hạ tầng đám mây và nhận **$200 USD AWS Activate Credits** thành công. | ![AWS Billing](image.png?width=400px) |
-| **5** | **Tương tác & Cấu hình CLI** | Học **Module 1 (Phần 2: Cách Thức Tương Tác Với AWS)**: <br> Hiểu rõ 3 cách điều khiển dịch vụ của AWS: <br> - **AWS Management Console**: Giao diện Web. Phân biệt tài khoản *Root User* (bảo mật với MFA, không dùng hằng ngày) và *IAM User* (tài khoản phụ dùng hằng ngày với ID riêng). <br> - **AWS CLI**: Giao diện dòng lệnh giúp thao tác nhanh. Đã cài đặt hoàn chỉnh trên máy, cấu hình *Access Key* và *Secret Key* an toàn (không push lên GitHub). <br> - **AWS SDK**: Bộ công cụ lập trình (Python, Java...) gọi API trực tiếp từ code. | *(Hình ảnh terminal CLI hoặc file config)* |
-| **6** | **Kiến trúc máy chủ EC2** | Nắm vững lý thuyết về *Instance types*, các loại *AMI*, ổ lưu trữ *EBS* và các cơ chế định tuyến IP, bảo mật hệ thống thông qua *SSH Key Pair*. | *(Hình ảnh giao diện EC2 Console)* |
-| **7** | **Thực hành Lab triển khai** | Khởi tạo thành công máy chủ EC2, tạo và gắn thêm EBS volume, kết nối SSH từ máy cá nhân ổn định; kết hợp quản lý tài nguyên song song qua cả Console & CLI. | *(Hình ảnh SSH thành công vào EC2)* |
+### Thành quả Tuần 1:
+* Tham gia thành công sự kiện Kickoff, hiểu rõ các quy tắc, kỳ vọng và văn hóa nội bộ của chương trình.
+* Thiết lập các kết nối ban đầu với các thành viên trong nhóm và đội ngũ kỹ thuật.
+* Tạo và xác minh hoàn tất tài khoản AWS Free Tier cá nhân để sử dụng cho mục đích nghiên cứu và thực hành.
+* Chủ động bảo vệ tài khoản khỏi các khoản phí phát sinh ngoài ý muốn bằng cách cấu hình AWS Budgets và các cảnh báo thanh toán.
+* Nắm vững các kỹ năng điều hướng cơ bản trong AWS Management Console và thiết lập thành công AWS CLI để sử dụng qua giao diện dòng lệnh.

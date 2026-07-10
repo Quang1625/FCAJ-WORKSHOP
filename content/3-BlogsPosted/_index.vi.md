@@ -1,30 +1,19 @@
 ---
-title: "Blog 3"
+title: "Các bài blogs đã đăng"
 date: 2026-07-05
-weight: 1
+weight: 3
 chapter: false
-pre: " <b> 3.3. </b> "
+pre: " <b> 3. </b> "
 ---
 
-# Tối ưu chi phí EC2 bằng cách phân tích Capacity Reservations với Amazon Athena
 
-Việc tối ưu chi phí Amazon EC2 On-Demand Capacity Reservations (ODCR) giúp doanh nghiệp phát hiện và giảm thiểu các reservation không được sử dụng hiệu quả, từ đó tránh lãng phí chi phí khi vận hành hạ tầng AWS ở quy mô lớn. Giải pháp kết hợp EC2 Capacity Manager, Amazon S3 và Amazon Athena để lưu trữ, truy vấn và phân tích dữ liệu lịch sử dài hạn, giúp theo dõi xu hướng sử dụng capacity, hỗ trợ đưa ra quyết định tối ưu tài nguyên dựa trên dữ liệu thực tế thay vì chỉ dựa vào thông tin giới hạn trên AWS Console.
+Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà nhóm mình đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
 
-Các điểm chính cần nắm:
+###  [Blog 1 - Tự động hóa Refresh Dữ liệu giữa các Tài khoản AWS cho Amazon RDS Multi-AZ DB Cluster](3.1-Blog1/)
+Blog này giới thiệu giải pháp tự động hóa việc refresh dữ liệu giữa các tài khoản AWS cho Amazon RDS Multi-AZ DB Cluster. Thông qua việc kết hợp AWS Lambda, AWS Step Functions, Amazon EventBridge và AWS KMS, bài viết hướng dẫn xây dựng một pipeline serverless giúp đồng bộ dữ liệu từ môi trường production sang staging hoặc testing một cách tự động, giảm thao tác thủ công, hạn chế sai sót và đảm bảo dữ liệu luôn được bảo mật trong quá trình chia sẻ giữa các tài khoản AWS.
 
-* Mục tiêu của giải pháp là phân tích và tối ưu chi phí Amazon EC2 On-Demand Capacity Reservations (ODCR) dựa trên dữ liệu lịch sử dài hạn, giúp phát hiện các reservation sử dụng không hiệu quả.
-* On-Demand Capacity Reservations (ODCR) vẫn bị tính phí ngay cả khi không có EC2 instance sử dụng, dẫn đến lãng phí nếu reservation bị bỏ trống hoặc sử dụng dưới công suất.
-* AWS Management Console chỉ lưu và hiển thị dữ liệu sử dụng Capacity Reservations trong 90 ngày, gây khó khăn khi phân tích xu hướng hoặc đánh giá hiệu quả sử dụng trong thời gian dài.
-* EC2 Capacity Manager cho phép export dữ liệu sử dụng capacity theo giờ sang Amazon S3 dưới định dạng Parquet, phù hợp cho lưu trữ và phân tích dữ liệu quy mô lớn.
-* Amazon Athena có thể truy vấn trực tiếp dữ liệu trên S3 bằng SQL, không cần xây dựng quy trình ETL hoặc triển khai data warehouse riêng.
-* Giải pháp sử dụng Partition Projection của Athena để tự động nhận diện các partition mới, giúp dữ liệu được cập nhật liên tục mà không cần chạy lệnh cập nhật metadata thủ công.
-* Giải pháp phù hợp với các doanh nghiệp quản lý nhiều AWS accounts và nhiều Region, giúp theo dõi và tối ưu chi phí EC2 dựa trên dữ liệu lịch sử thay vì chỉ dựa vào hóa đơn cuối tháng.
-* Có thể mở rộng hệ thống bằng cách tích hợp với Amazon EventBridge Scheduler để tự động export và refresh dữ liệu định kỳ, hoặc kết hợp với Amazon QuickSight để xây dựng dashboard trực quan phục vụ giám sát và phân tích chi phí.
+###  [Blog 2 - Tìm hiểu Amazon Aurora DSQL – Giải pháp cơ sở dữ liệu mới trên AWS](3.2-Blog2/)
+Blog này giới thiệu Amazon Aurora DSQL, dịch vụ cơ sở dữ liệu SQL phân tán theo mô hình serverless do AWS phát triển. Bài viết trình bày các đặc điểm nổi bật như khả năng tự động mở rộng mà không cần sharding, kiến trúc Active-Active giúp tăng tính sẵn sàng, khả năng tương thích với PostgreSQL và việc không cần quản lý hạ tầng. Đây là một giải pháp phù hợp cho các ứng dụng hiện đại cần khả năng mở rộng linh hoạt, hiệu năng cao và giảm chi phí vận hành.
 
-Giải pháp giúp doanh nghiệp chủ động phát hiện các Capacity Reservations sử dụng kém hiệu quả, từ đó điều chỉnh hoặc hủy các reservation không cần thiết để giảm chi phí. Việc lưu trữ dữ liệu dài hạn trên Amazon S3 và phân tích bằng Amazon Athena cũng tạo nền tảng cho các báo cáo và dashboard quản lý chi phí AWS ở quy mô lớn.
-
-![Ảnh blog 3](/images/blog3.png)
-
-[Link blog](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2204187187012908/#)
-
-![Cấu trúc](/images/instructionblog3.png)
+###  [Blog 3 - Tối ưu chi phí EC2 bằng cách phân tích Capacity Reservations với Amazon Athena](3.3-Blog3/)
+Blog này giới thiệu giải pháp tối ưu chi phí Amazon EC2 On-Demand Capacity Reservations (ODCR) bằng cách kết hợp EC2 Capacity Manager, Amazon S3 và Amazon Athena. Bài viết hướng dẫn cách lưu trữ dữ liệu sử dụng capacity theo thời gian dài, truy vấn trực tiếp bằng SQL và phân tích mức độ sử dụng reservation để phát hiện các tài nguyên đang gây lãng phí. Giải pháp giúp doanh nghiệp chủ động theo dõi, đánh giá và tối ưu chi phí EC2 dựa trên dữ liệu thực tế thay vì chỉ dựa vào báo cáo trên AWS Console.

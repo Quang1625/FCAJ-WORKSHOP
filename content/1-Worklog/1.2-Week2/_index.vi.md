@@ -1,44 +1,34 @@
 ---
 title: "Worklog Tuần 2"
-date: 2026-04-24
+date: 2026-04-20
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
 
+### Mục tiêu tuần 2
 
-### Mục tiêu tuần 2:
 
-- Xây dựng kết nối: Giao lưu và thiết lập mối quan hệ với các thành viên trong chương trình First Cloud AI Journey.
+* **Hoàn tất các bài tập trên AWS Console**: Thu thập tổng cộng **$200 USD AWS Credits** để tối ưu chi phí trong quá trình thực hành với các dịch vụ có tính phí.
+* **Tổng quan hóa hệ sinh thái dịch vụ AWS**: Tìm hiểu các nhóm dịch vụ chính (*Compute, Storage, Networking, Database*, v.v.), kiến trúc hệ thống và cách tính phí của AWS nhằm chuẩn bị cho việc thiết kế, triển khai hạ tầng tối ưu và tiết kiệm trong tương lai.
 
-- Làm chủ nền tảng AWS: Nắm vững các dịch vụ AWS cốt lõi và thao tác thành thạo trên cả giao diện Management Console lẫn Command Line Interface (CLI).
+---
 
-- Tăng cường bảo mật đám mây: Củng cố kiến thức bảo vệ tài khoản và triển khai các chiến lược quản trị danh tính và quyền truy cập nâng cao trên hệ thống AWS IAM.
+###  Các công việc cần triển khai trong tuần này
 
-- Đi sâu vào mạng ảo: Nghiên cứu nền tảng lý thuyết và thực hành triển khai kiến trúc mạng ảo Amazon VPC (Virtual Private Cloud).
+| Thứ | Hạng mục công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu tham khảo |
+| :---: | :--- | :---: | :---: | :--- |
+| **3** | - Tìm hiểu giao diện AWS Management Console <br> - Cài đặt và cấu hình AWS CLI trên máy tính cá nhân (*Access Key, Secret Key, Default Region*) <br> - Thực hành: Sử dụng các lệnh AWS CLI cơ bản | 21/04/2026 | 21/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| **4** | - Tìm hiểu dịch vụ Amazon EC2 cơ bản: *Instance types, AMI, EBS, Elastic IP* <br> - Nghiên cứu các phương thức kết nối SSH từ máy trạm vào EC2 | 22/04/2026 | 22/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| **5** | - **Thực hành Lab kỹ thuật**: <br>&emsp; + Khởi tạo EC2 instance hoàn chỉnh <br>&emsp; + Tạo và gắn thêm EBS volume <br>&emsp; + Thực hiện kết nối SSH và quản lý tài nguyên song song qua Console & CLI | 23/04/2026 | 23/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
 
-- Thực hành bảo vệ hạ tầng: Trực tiếp phân chia mạng con (subnets), thiết lập định tuyến (route tables) và cấu hình Security Groups để bảo vệ an toàn cho hệ thống tài nguyên đám mây.
+---
 
-### Các công việc cần triển khai trong tuần này:
+###  Kết quả đạt được tuần 2
 
-| Thứ | Công việc                                                                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Nghiên cứu sâu về quản lý bảo mật và người dùng trên hệ thống <br> - Tìm hiểu cách thiết lập cấu hình bảo mật 2 lớp (MFA) cho tài khoản                                                                 | 24/04/2026   | 24/04/2026      | Khóa học First Cloud AI Journey           |
-| 3   | - Thực hành phân quyền trên IAM, quản lý nhóm và phân tách quyền hạn giữa Root User và IAM User <br> - Tạo tài khoản phụ phục vụ cho các thao tác làm việc hằng ngày                                      | 25/04/2026   | 25/04/2026      | Khóa học First Cloud AI Journey           |
-| 4   | - Học lý thuyết Module 02 về Amazon Virtual Private Cloud (VPC) <br> - Tìm hiểu các khái niệm cốt lõi: vpc là gì, subnet công khai (public) và riêng tư (private)                                         | 27/04/2026   | 27/04/2026      | Khóa học First Cloud AI Journey           |
-| 5   | - Tìm hiểu cơ chế định tuyến qua bảng định tuyến (Route Table) và cổng Internet (Internet Gateway) <br> - Nghiên cứu giải pháp cổng NAT (NAT Gateway) giúp các máy chủ private kết nối internet một chiều | 28/04/2026   | 28/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - Thiết kế sơ đồ mạng cho bài Lab thực hành <br> - Chuẩn bị các dải địa chỉ IP CIDR cho VPC và các subnet dự kiến khởi tạo                                                                                | 29/04/2026   | 29/04/2026      | Khóa học First Cloud AI Journey           |
-| 7   | - Tiến hành làm bài Lab thực tế trên AWS Console <br> - Khởi tạo VPC, chia public/private subnet, cấu hình Internet Gateway, Route Table và thiết lập các quy tắc tường lửa với Security Groups           | 30/04/2026   | 30/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-
-### Kết quả đạt được tuần 2:
-
-| Thứ | Công việc                                | Kết quả đạt được                                                                                                                                                                                                                                                                         | Hình ảnh                                          |
-| --- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| 2   | Cấu hình bảo mật 2 lớp (MFA)             | Thiết lập thành công xác thực đa yếu tố (MFA) cho môi trường tài khoản, tăng cường lá chắn bảo mật hệ thống.                                                                                                                                                                             | ![MFA](image.png)                                 |
-| 3   | Phân quyền và quản lý tài khoản IAM      | Đảm bảo an toàn cho Root User bằng cách tắt các active access key. Thực hiện quản lý, phân quyền cho người dùng phụ truc-user thuộc nhóm Admin-groups để làm việc hằng ngày đúng quy định.                                                                                               | ![IAM](image-3.png)                               |
-| 4   | Nghiên cứu lý thuyết Amazon VPC          | Hiểu rõ bản chất cô lập logic của mạng ảo VPC nhằm phân tách các môi trường phát triển (dev, test, production). Nắm chắc cách chia nhỏ không gian mạng thành các public subnet và private subnet.                                                                                        | _(Hình ảnh sơ đồ kiến trúc mạng VPC)_             |
-| 5   | Tìm hiểu cơ chế định tuyến mạng          | Nắm vững cách thức hoạt động của Default route table và Custom route table. Hiểu cách sử dụng Internet Gateway để mở luồng ra internet và cách NAT Gateway kết nối an toàn một chiều cho các dịch vụ bên trong mạng private.                                                             | _(Hình ảnh cấu hình định tuyến hệ thống)_         |
-| 6   | Chuẩn bị hạ tầng phân định tài nguyên    | Xác định rõ các thông số kỹ thuật, dải IP CIDR 10.0.0.0/16 và lên kế hoạch liên kết rõ ràng cho các thành phần mạng trước khi triển khai thực tế trên console.                                                                                                                           | _(Hình ảnh bảng quy hoạch IP của bài thực hành)_  |
-| 7   | Thực hành Lab 03 triển khai hệ thống VPC | Khởi tạo thành công mạng ảo với tên truc-vpc (IP CIDR 10.0.0.0/16). Cấu hình chi tiết truc-public-subnet1 và truc-private-subnet1. Đính kèm cổng truc-igw, tạo bảng định tuyến truc-route-Public1 và thiết lập hai nhóm bảo mật cho phép quản trị các giao thức SSH, Ping, HTTP an toàn. | ![Your VPCs](image-1.png) ![Subnets](image-2.png) |
-
+| Thứ | Hạng mục | Kết quả đạt được chi tiết | Minh chứng / Hình ảnh |
+| :---: | :--- | :--- | :---: |
+| **3** | **Tương tác & Cấu hình CLI** | Học **Module 1 (Phần 2: Cách Thức Tương Tác Với AWS)**: <br> Hiểu rõ 3 cách điều khiển dịch vụ của AWS: <br> - **AWS Management Console**: Giao diện Web. Phân biệt tài khoản *Root User* (bảo mật với MFA, không dùng hằng ngày) và *IAM User* (tài khoản phụ dùng hằng ngày với ID riêng). <br> - **AWS CLI**: Giao diện dòng lệnh giúp thao tác nhanh. Đã cài đặt hoàn chỉnh trên máy, cấu hình *Access Key* và *Secret Key* an toàn (không push lên GitHub). <br> - **AWS SDK**: Bộ công cụ lập trình (Python, Java...) gọi API trực tiếp từ code. | *(Hình ảnh terminal CLI hoặc file config)* |
+| **4** | **Kiến trúc máy chủ EC2** | Nắm vững lý thuyết về *Instance types*, các loại *AMI*, ổ lưu trữ *EBS* và các cơ chế định tuyến IP, bảo mật hệ thống thông qua *SSH Key Pair*. | *(Hình ảnh giao diện EC2 Console)* |
+| **5** | **Thực hành Lab triển khai** | Khởi tạo thành công máy chủ EC2, tạo và gắn thêm EBS volume, kết nối SSH từ máy cá nhân ổn định; kết hợp quản lý tài nguyên song song qua cả Console & CLI. | *(Hình ảnh SSH thành công vào EC2)* |

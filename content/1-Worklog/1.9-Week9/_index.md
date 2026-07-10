@@ -1,57 +1,34 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 9 Objectives:
+- Migrate the file upload flow to S3 Upload Bucket using presigned URLs and separate the Word import feature into an asynchronous Lambda function.
+- Decouple grading logic from the exam submission request using SQS Grading Queue and Lambda Grading Worker.  
+- Decouple PDF generation logic from the exam submission request using SQS PDF Generation Queue and Lambda PDF Generation Worker.  
+- Decouple email notification logic from the exam submission request using SQS Email Notification Queue and Lambda Email Notification Worker.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Workshop Team
+- **Weekly goal:** Implement authentication with Cognito/SES, deploy the Express backend to Lambda, and protect the API using API Gateway JWT Authorizer.
+- **Results achieved:** Completed the registration flow, email OTP, login, MongoDB profile sync, Lambda Backend API, and basic API Gateway testing.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task                                                                                                                                                                    | Start Date | Completion Date | Reference Material                        |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 1   | - **Workshop Team - Auth Flow:** Implement user registration, email OTP using Amazon SES, and login flow using Amazon Cognito <br>&emsp; + Sync user profiles with MongoDB | 06/08/2026 | 06/08/2026      | <https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html/>                |
+| 2   | - **Workshop Team - Backend & API:** Deploy the Express backend to AWS Lambda <br>&emsp; + Configure API Gateway JWT Authorizer and conduct basic endpoint testing       | 06/09/2026 | 06/09/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - **File Uploads & Import:** Migrate file upload flow to S3 using presigned URLs <br>&emsp; + Extract and refactor the Word import feature into an async Lambda function | 06/10/2026 | 06/10/2026      | <https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html/>                  |
+| 4   | - **Grading & PDF Decoupling:** Provision SQS Queues for Grading and PDF Generation <br>&emsp; + Develop and attach Lambda Workers to process these respective queues    | 06/11/2026 | 06/11/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Email Decoupling:** Provision the SQS Email Notification Queue <br>&emsp; + Develop the Lambda Email Notification Worker and test the fully decoupled submission flow| 06/12/2026 | 06/12/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 9 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully completed the user authentication workflow, including registration, email OTP verification via SES, and login via Cognito.
+* Established seamless data synchronization between the authentication layer and user profiles stored in MongoDB.
+* Deployed the Express backend as a serverless API on AWS Lambda and successfully protected the endpoints using an API Gateway JWT Authorizer.
+* Optimized application performance by migrating direct file uploads to S3 via presigned URLs and moving heavy Word imports to a background Lambda function.
+* Architected a highly decoupled exam submission system using Amazon SQS to handle grading, PDF generation, and email notifications asynchronously.
+* Developed and deployed dedicated Lambda Workers for each SQS queue, ensuring the core API remains fast and non-blocking for end users.

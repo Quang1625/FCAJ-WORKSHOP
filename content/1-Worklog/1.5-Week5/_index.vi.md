@@ -1,59 +1,27 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-05-11
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu Tuần 5:
+- Phát triển trên Cloud với AWS Cloud9
+- Lưu trữ trang web tĩnh (Static Website Hosting) với Amazon S3
 
+### Các nhiệm vụ thực hiện trong tuần này:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu cơ bản về AWS Cloud9 <br> - **Thực hành:** Tạo môi trường Cloud9 và khám phá không gian làm việc IDE | 11/05/2026 | 11/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Viết và chạy các script cơ bản (Python/Node.js) trực tiếp trong môi trường Cloud9 <br> - Hiểu cách Cloud9 tương tác với EC2 instance bên dưới | 12/05/2026 | 12/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu cơ bản về Amazon S3: <br>&emsp; + Buckets và Objects <br>&emsp; + Các thiết lập Chặn truy cập công khai (Block Public Access) <br>&emsp; + Bucket Policies | 13/05/2026 | 13/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Nắm rõ các yêu cầu để Lưu trữ trang web tĩnh trên S3 (tài liệu Index và Error) | 14/05/2026 | 14/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo S3 bucket <br>&emsp; + Tải lên các tệp HTML/CSS <br>&emsp; + Áp dụng policy cấp quyền đọc công khai (public read) <br>&emsp; + Truy cập URL của trang web | 15/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
-### Mục tiêu tuần 5:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 5:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Thành quả Tuần 5:
+* Đã khởi tạo thành công môi trường phát triển AWS Cloud9 và làm quen với IDE trên trình duyệt.
+* Viết, thực thi và kiểm tra code trực tiếp từ trình duyệt sử dụng Cloud9.
+* Nắm vững các khái niệm cốt lõi của Amazon S3, bao gồm sự khác biệt giữa bucket và object, cũng như cách quản lý quyền truy cập.
+* Tạo thành công một S3 bucket và cấu hình chuyên biệt để lưu trữ trang web tĩnh.
+* Viết và áp dụng thành công JSON bucket policy để cấp quyền đọc công khai cho các tài nguyên web.
+* Triển khai một trang web tĩnh hoạt động tốt và truy cập trực tiếp thông qua URL endpoint của S3.

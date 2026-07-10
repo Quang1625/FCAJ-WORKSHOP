@@ -1,57 +1,26 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-06-15
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 10 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Switch the file upload flow to S3 Upload Bucket using presigned URLs.
+- Separate the Word document import feature into an AWS Lambda function for asynchronous handling.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task                                                                                                                                                                 | Start Date | Completion Date | Reference Material                        |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 1   | - **Backend & S3 Configuration:** <br>&emsp; + Configure S3 bucket CORS and IAM policies <br>&emsp; + Implement backend API to generate S3 presigned URLs            | 06/15/2026 | 06/15/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - **Frontend Integration:** <br>&emsp; + Update the frontend application to request presigned URLs and upload files directly to S3 <br>&emsp; + Verify S3 prefixes   | 06/16/2026 | 06/16/2026      | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html>                    |
+| 3   | - **Lambda Provisioning:** <br>&emsp; + Create the Word Import Lambda function <br>&emsp; + Set up the deployment package with `.docx` parsing libraries             | 06/17/2026 | 06/17/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - **Parsing & Database Logic:** <br>&emsp; + Write the Lambda logic to parse `.docx` content <br>&emsp; + Connect the Lambda to MongoDB and map question data schemas| 06/18/2026 | 06/18/2026      |<https://docs.aws.amazon.com/lambda/>         |
+| 5   | - **End-to-End Testing:** <br>&emsp; + Test the complete upload and asynchronous import pipeline <br>&emsp; + Validate data integrity within MongoDB                 | 06/19/2026 | 06/19/2026      | Internal Project Docs                     |
 
 ### Week 10 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully transitioned the main file upload flow to use S3 presigned URLs, offloading heavy file transfer traffic from the core backend.
+* Verified that all uploaded files are properly categorized and saved into their correct S3 prefixes (folder structures).
+* Successfully decoupled the heavy Word document processing task by moving it into a dedicated, asynchronous AWS Lambda function.
+* The Word Import Lambda is fully functional: it accurately parses `.docx` files, structures the data, and successfully saves the extracted questions into the MongoDB database.

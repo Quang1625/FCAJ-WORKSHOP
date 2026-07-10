@@ -1,58 +1,27 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-05-18
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 6:
+- Kiến thức cơ bản về cơ sở dữ liệu với Amazon Relational Database Service (RDS)
+- Điện toán tinh gọn với Amazon Lightsail
 
-### Mục tiêu tuần 6:
+### Các nhiệm vụ thực hiện trong tuần này:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu cơ bản về Amazon RDS: <br>&emsp; + Cơ sở dữ liệu được quản lý (Managed) vs. không được quản lý (Unmanaged) <br>&emsp; + Các engine cơ sở dữ liệu được hỗ trợ (MySQL, PostgreSQL, v.v.) | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Thực hành:** <br>&emsp; + Khởi tạo một cơ sở dữ liệu Amazon RDS MySQL (Gói miễn phí - Free Tier) <br>&emsp; + Cấu hình VPC và Security Groups để cho phép luồng truy cập vào cơ sở dữ liệu | 19/05/2026 | 19/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu cơ bản về Amazon Lightsail: <br>&emsp; + Các khái niệm cốt lõi và mô hình định giá dự đoán được <br>&emsp; + Khi nào nên chọn Lightsail thay vì Amazon EC2 | 20/05/2026 | 20/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - **Thực hành:** <br>&emsp; + Khởi chạy một máy chủ ảo cá nhân (VPS) sử dụng Lightsail <br>&emsp; + Triển khai một blueprint đã được cấu hình sẵn (ví dụ: WordPress hoặc LAMP stack) | 21/05/2026 | 21/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Khám phá mạng trong Lightsail: <br>&emsp; + Gắn một IP tĩnh (Static IP) cho Lightsail instance <br>&emsp; + Xem xét các tính năng quản lý DNS trong giao diện quản lý của Lightsail | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Thành quả Tuần 6:
+* Hiểu được lợi ích của các dịch vụ cơ sở dữ liệu được quản lý và các tác vụ quản trị mà Amazon RDS sẽ tự động hóa.
+* Khởi tạo thành công một instance cơ sở dữ liệu Amazon RDS và cấu hình bảo mật mạng để cho phép các kết nối an toàn.
+* Nắm bắt được giá trị cốt lõi của Amazon Lightsail như một giải pháp điện toán tinh gọn và tiết kiệm chi phí.
+* Triển khai một ứng dụng web hoạt động đầy đủ bằng blueprint của Amazon Lightsail mà không cần phải cấu hình thủ công hệ điều hành hay máy chủ web bên dưới.
+* Tạo và gắn thành công một địa chỉ IP tĩnh để đảm bảo Lightsail instance luôn giữ được một điểm truy cập công khai (public endpoint) cố định.

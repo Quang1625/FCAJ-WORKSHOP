@@ -1,57 +1,34 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-01
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 8 Objectives:
+* Complete Frontend interaction for the Serverless system.
+* Understand AWS security responsibilities and monitoring tools (Security Core - Week 1).
+* Define the MVP scope, review the current source code, and finalize the AWS Serverless Hybrid architecture for Examora.
+* Implement authentication with Cognito/SES, deploy the Express backend to Lambda, and secure APIs using API Gateway JWT Authorizer.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Workshop Team
+* The goal for the week is to define the MVP scope, review the current source code, and finalize the AWS Serverless Hybrid architecture for Examora. 
+* The outcome is getting a grasp of the frontend/backend structure, deciding which modules to keep, which modules to move to AWS, and having an initial implementation backlog.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task                                                                                                                                                                    | Start Date | Completion Date | Reference Material                        |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 1   | - **Security Core:** Learn about the AWS Shared Responsibility Model and monitoring tools (Amazon CloudWatch & AWS CloudTrail)                                          | 06/01/2026 | 06/01/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - **Workshop Team - Code Review:** Deep dive into Examora's current frontend and backend source code to understand the existing structure and data flow                 | 06/02/2026 | 06/02/2026      | <https://docs.aws.amazon.com/apigateway/>                    |
+| 3   | - **Workshop Team - Architecture:** Define the MVP scope, decide which modules remain in the current stack, and which transition to the AWS Serverless Hybrid model     | 06/03/2026 | 06/03/2026      | ExamoraServerless/01_Examora_KienTruc_Serverless.md                     |
+| 4   | - **Backend Migration & Auth:** Create the initial implementation backlog. Configure Amazon Cognito/SES and deploy the refactored Express backend to AWS Lambda         | 06/04/2026 | 06/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Frontend & API Security:** Connect the frontend to the serverless APIs and secure the endpoints using an Amazon API Gateway JWT Authorizer                          | 06/05/2026 | 06/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 8 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Gained a solid understanding of AWS security responsibilities and core monitoring services.
+* Successfully audited the existing Examora frontend and backend source code to map out dependencies.
+* Finalized the MVP scope and made strategic architectural decisions regarding which modules to migrate to AWS.
+* Drafted a comprehensive, actionable implementation backlog for the new Serverless Hybrid architecture.
+* Integrated Amazon Cognito and SES for secure, managed user authentication and communication.
+* Successfully deployed the Express application to AWS Lambda and secured all API interactions using a JWT Authorizer.

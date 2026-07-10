@@ -1,59 +1,34 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký công việc Tuần 8"
+date: 2026-06-01
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 8:
+* Hoàn thiện tương tác Frontend cho hệ thống Serverless.
+* Tìm hiểu trách nhiệm bảo mật và các công cụ giám sát trên AWS (Bảo mật cốt lõi - Tuần 1).
+* Xác định phạm vi MVP (Sản phẩm khả dụng tối thiểu), đánh giá mã nguồn hiện tại và chốt kiến trúc AWS Serverless Hybrid cho dự án Examora.
+* Triển khai xác thực với Cognito/SES, triển khai (deploy) Express backend lên Lambda và bảo mật các API bằng API Gateway JWT Authorizer.
 
-### Mục tiêu tuần 8:
+### Nhóm Workshop
+* Mục tiêu của tuần là xác định phạm vi MVP, đánh giá mã nguồn hiện tại và chốt kiến trúc AWS Serverless Hybrid cho Examora.
+* Kết quả đạt được là nắm bắt được cấu trúc frontend/backend, quyết định giữ lại các module nào, chuyển các module nào lên AWS, và có một backlog (danh sách công việc) triển khai ban đầu.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Các nhiệm vụ thực hiện trong tuần này:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - **Bảo mật cốt lõi:** Tìm hiểu về Mô hình Trách nhiệm Chia sẻ của AWS và các công cụ giám sát (Amazon CloudWatch & AWS CloudTrail) | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Nhóm Workshop - Đánh giá mã nguồn:** Đi sâu tìm hiểu mã nguồn frontend và backend hiện tại của Examora để nắm bắt cấu trúc và luồng dữ liệu sẵn có | 02/06/2026 | 02/06/2026 | <https://docs.aws.amazon.com/apigateway/> |
+| 3 | - **Nhóm Workshop - Kiến trúc:** Xác định phạm vi MVP, quyết định module nào sẽ giữ lại ở hệ thống hiện tại, và module nào sẽ chuyển sang mô hình AWS Serverless Hybrid | 03/06/2026 | 03/06/2026 | ExamoraServerless/01_Examora_KienTruc_Serverless.md |
+| 4 | - **Chuyển đổi Backend & Xác thực:** Tạo backlog triển khai ban đầu. Cấu hình Amazon Cognito/SES và triển khai backend Express đã được tái cấu trúc lên AWS Lambda | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Bảo mật Frontend & API:** Kết nối frontend với các API serverless và bảo mật các endpoint sử dụng Amazon API Gateway JWT Authorizer | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Thành quả Tuần 8:
+* Nắm vững kiến thức về trách nhiệm bảo mật trên AWS và các dịch vụ giám sát cốt lõi.
+* Rà soát thành công mã nguồn frontend và backend hiện tại của Examora để thiết lập bản đồ các phụ thuộc (dependencies).
+* Chốt được phạm vi MVP và đưa ra các quyết định chiến lược về kiến trúc đối với các module sẽ được đưa lên AWS.
+* Lập thảo thành công một backlog triển khai chi tiết và có tính thực thi cao cho kiến trúc Serverless Hybrid mới.
+* Tích hợp Amazon Cognito và SES để quản lý và bảo mật luồng xác thực cũng như thông báo tới người dùng.
+* Triển khai thành công ứng dụng Express lên AWS Lambda và bảo mật toàn bộ tương tác API bằng JWT Authorizer.

@@ -1,6 +1,6 @@
 ---
 title: "Worklog Week 2"
-date: 2026-04-24
+date: 2026-04-20
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -8,37 +8,31 @@ pre: " <b> 1.2. </b> "
 
 
 
+###  Week 2 Objectives
 
-### Week 2 Objectives:
+* **Complete tasks on the AWS Console**: Collect a total of **$200 USD in AWS Credits** to optimize costs during hands-on practice with paid services.
+* **Overview the AWS service ecosystem**: Explore core service groups (*Compute, Storage, Networking, Database*, etc.), system architecture, and AWS pricing models to prepare for designing and deploying optimal and cost-effective infrastructure in the future.
 
-- Build connections: Network and establish relationships with peers within the First Cloud AI Journey program.
+---
 
-- Master AWS fundamentals: Gain a solid understanding of core AWS services and become proficient in navigating both the Management Console and the Command Line Interface (CLI).
+###  Tasks to Deploy This Week
 
-- Enhance cloud security: Strengthen your knowledge of account protection and implement advanced identity and access management strategies using AWS IAM.
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :---: | :--- | :---: | :---: | :--- |
 
-- Deep dive into virtual networking: Study the theoretical concepts and practical deployment of Amazon Virtual Private Cloud (VPC) architectures.
+| **Tue** | - Get familiar with the AWS Management Console interface <br> - Install and configure AWS CLI on the personal computer (*Access Key, Secret Key, Default Region*) <br> - Hands-on: Execute basic AWS CLI commands to check resources | 21/04/2026 | 21/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| **Wed** | - Grasp basic Amazon EC2 services: *Instance categories, AMI (Amazon Machine Image), EBS (Elastic Block Store), Elastic IP* <br> - Learn about security methods and SSH connection from a workstation to EC2 | 22/04/2026 | 22/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| **Thu** | - **Practical Technical Lab Deployment**: <br>&emsp; + Provision a complete EC2 instance in practice <br>&emsp; + Create and attach an additional EBS volume <br>&emsp; + Connect via SSH and manage resources concurrently via Console & CLI | 23/04/2026 | 23/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
 
-- Hands-on infrastructure protection: Practice creating subnets, setting up route tables, and configuring Security Groups to effectively secure your cloud resources.
+---
 
-### Tasks to Deploy This Week:
+###  Week 2 Achievements
 
-| Day | Task                                                                                                                                                                                                                         | Start Date | Completion Date | Documentation Source                      |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| Mon | - Deeply research identity management and user security on the system <br> - Learn how to set up Multi-Factor Authentication (MFA) for the account                                                                           | 24/04/2026 | 24/04/2026      | First Cloud AI Journey Course             |
-| Tue | - Practice permission handling in IAM, group management, and isolating privileges between Root User and IAM Users <br> - Create sub-accounts to serve daily operational tasks                                                | 25/04/2026 | 25/04/2026      | First Cloud AI Journey Course             |
-| Wed | - Learn the theoretical foundations of Module 02 regarding Amazon Virtual Private Cloud (VPC) <br> - Explore core concepts: what a VPC is, public subnets, and private subnets                                               | 27/04/2026 | 27/04/2026      | First Cloud AI Journey Course             |
-| Thu | - Learn about network routing mechanisms via Route Tables and Internet Gateways <br> - Research NAT Gateway solutions that allow private subnet instances to connect one-way to the internet                                 | 28/04/2026 | 28/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | - Design the network topology diagram for the practical Lab assignment <br> - Prepare IPv4 CIDR blocks for the VPC and subnets planned for initialization                                                                    | 29/04/2026 | 29/04/2026      | First Cloud AI Journey Course             |
-| Sat | - Conduct the hands-on Lab on the AWS Management Console <br> - Initialize the VPC, partition public/private subnets, attach the Internet Gateway, configure Route Tables, and establish firewall rules with Security Groups | 30/04/2026 | 30/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-
-### Week 2 Achievements:
-
-| Day | Task                                            | Achievement                                                                                                                                                                                                                                                                                                                                         | Image                                             |
-| --- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Mon | Multi-Factor Authentication (MFA) configuration | Successfully configured Multi-Factor Authentication (MFA) for the account environment, strengthening the system security shield.                                                                                                                                                                                                                    | ![MFA](image.png)                                 |
-| Tue | IAM permissions & account management            | Ensured Root User safety by disabling active access keys. Managed and allocated permissions for the sub-user account truc-user within the Admin-groups for daily operations in compliance with regulations.                                                                                                                                         | ![IAM](image-3.png)                               |
-| Wed | Amazon VPC theoretical foundations              | Clearly understood the logic isolation nature of a Virtual Private Cloud (VPC) to separate development environments (dev, test, production). Mastered partitioning the network space into public and private subnets.                                                                                                                               | _(Amazon VPC network architecture diagram)_       |
-| Thu | Network routing mechanism research              | Comprehended the operational behavior of Default route tables and Custom route tables. Learned how to utilize an Internet Gateway to open outbound internet traffic and how a NAT Gateway securely connects private subnet resources one-way.                                                                                                       | _(System routing configuration illustration)_     |
-| Fri | Infrastructure resource allocation planning     | Explicitly determined technical parameters, the 10.0.0.0/16 CIDR block, and planned clear associations for network components prior to live deployment on the console.                                                                                                                                                                              | _(Lab IP allocation table illustration)_          |
-| Sat | Live implementation of Lab 03 (VPC deployment)  | Successfully initialized the virtual network named truc-vpc (IPv4 CIDR 10.0.0.0/16). Detailed configuration completed for truc-public-subnet1 and truc-private-subnet1. Attached the truc-igw gateway, created the truc-route-Public1 route table, and established two security groups allowing secure management of SSH, Ping, and HTTP protocols. | ![Your VPCs](image-1.png) ![Subnets](image-2.png) |
+| Day | Task | Detailed Achievement | Proof / Image |
+| :---: | :--- | :--- | :---: |
+| **Mon** | **Kickoff & Integration** | Fully grasped project rules, internship policies, as well as the working culture; successfully got acquainted with the engineers in the team. | *(Kickoff event illustration)* |
+| **Tue** | **Cloud Fundamentals & Global AWS Infrastructure** | Completed **Module 1 (AWS & Gen AI Basics - Part 1)**: <br> - **Cloud Computing**: Understood the nature of renting IT resources over the network with a *Pay-as-you-go* model, replacing traditional on-premises hardware purchases. Grasped the advantages: upfront cost savings, lightning-fast deployment, and easy global scaling. <br> - **Network Infrastructure**: Mastered foundational concepts: <br>&emsp; • *Data Centers*: Optimized physical data centers. <br>&emsp; • *Availability Zones (AZs)*: Independent Data Center clusters to mitigate risks (recommended to run applications across $\ge$ 2 AZs). <br>&emsp; • *Regions*: Large geographical areas containing $\ge$ 3 AZs. <br>&emsp; • *Edge Locations & Local Zones*: Distribution server points near users (available in VN), acting as caches (CDN - CloudFront) for high-speed data delivery. | *(AWS global network infrastructure diagram)* |
+| **Wed** | **Account Registration & Claiming Credits** | Successfully initialized a personal AWS account and set up AWS Budgets to strictly monitor costs. Completed the AWS Cloud Explorer task series to get used to the cloud system and successfully received **$200 USD AWS Activate Credits**. | ![AWS Billing](image.png?width=400px) |
+| **Thu** | **Communication Methods & CLI Setup** | Completed **Module 1 (Part 2: Interacting with AWS)**: <br> Learned 3 main ways to control the AWS system: <br> - **AWS Management Console**: Intuitive web interface. Clearly distinguished the difference between the *Root User* (used only when absolutely necessary, strictly protected with MFA) and the *IAM User* (an account with flexibly assigned permissions for daily tasks). <br> - **AWS CLI**: Command-line tool for quick operations and automation scripting. Safely configured on the local machine (strictly do not publicize Access/Secret Keys on GitHub). <br> - **AWS SDK**: Library suites (Python, Java, etc.) for developers to integrate API calls directly into source code. | *(CLI configuration terminal illustration)* |
+| **Fri** | **EC2 Service Architecture** | Equipped with a solid theoretical foundation on *Instance families*, *AMI structures*, *EBS storage*, *IP routing methods*, and security practices via *SSH Key Pairs*. | *(EC2 Console control interface image)* |
+| **Sat** | **Practical Lab Operations** | Successfully deployed an EC2 virtual server, integrated an additional EBS drive, and maintained a stable SSH connection from the personal computer; became proficient in cross-managing resources between the Web interface and the command line. | *(Successful SSH connection to EC2 illustration)* |

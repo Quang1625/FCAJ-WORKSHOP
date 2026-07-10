@@ -1,74 +1,44 @@
 ---
 title: "Worklog Week 3"
-date: 2026-05-01
+date: 2026-04-27
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
+
+
+
 ### Week 3 Objectives:
 
-- Establish outbound internet connectivity for instances located within the private subnet and deploy advanced secure connection methods.
-- Learn how to manage core network infrastructure without exposing it or opening inbound traffic to the public internet.
-- Develop a structured mindset regarding cloud cost optimization and proper resource decommissioning workflows on AWS.
+- Build connections: Network and establish relationships with peers within the First Cloud AI Journey program.
+
+- Master AWS fundamentals: Gain a solid understanding of core AWS services and become proficient in navigating both the Management Console and the Command Line Interface (CLI).
+
+- Enhance cloud security: Strengthen your knowledge of account protection and implement advanced identity and access management strategies using AWS IAM.
+
+- Deep dive into virtual networking: Study the theoretical concepts and practical deployment of Amazon Virtual Private Cloud (VPC) architectures.
+
+- Hands-on infrastructure protection: Practice creating subnets, setting up route tables, and configuring Security Groups to effectively secure your cloud resources.
 
 ### Tasks to Deploy This Week:
 
-| Day | Task                                                                                                                                                                                                                                          | Start Date | Completion Date | Documentation Source                      |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| Mon | - Research deployment mechanisms and outbound internet route allocation for private networks via a NAT Gateway <br> - Learn how to allocate static Elastic IP addresses for network gateways                                                  | 01/05/2026 | 01/05/2026      | First Cloud AI Journey Course             |
-| Tue | - Study advanced secure connection methods using the EC2 Instance Connect Endpoint (EICE) tool <br> - Explore how to SSH directly into private instances without using a Bastion Host or public IP                                            | 02/05/2026 | 02/05/2026      | First Cloud AI Journey Course             |
-| Wed | - Analyze Security Group configurations designed for network isolation <br> - Study nested security groups and troubleshooting connectivity issues by properly configuring Outbound Rules                                                     | 04/05/2026 | 04/05/2026      | First Cloud AI Journey Course             |
-| Thu | - Read documentation guides regarding cost optimization and efficient budget management on AWS <br> - Inspect the hourly pricing models of background resources such as NAT Gateways or unassociated Elastic IPs                              | 05/05/2026 | 05/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | - Plan detailed implementation steps for the network topology, including setting up the NAT Gateway, creating the EICE, and preparing test commands <br> - Draft a resource decommissioning checklist to avoid unintended penalty charges     | 06/05/2026 | 06/05/2026      | First Cloud AI Journey Course             |
-| Sat | - Execute live configuration steps directly on the AWS Management Console <br> - Configure routing tables, run ping/curl commands from the private instance to verify network paths, troubleshoot errors, and perform a full resource cleanup | 07/05/2026 | 07/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                                                                                                                                                                                                         | Start Date | Completion Date | Documentation Source                      |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| Mon | - Deeply research identity management and user security on the system <br> - Learn how to set up Multi-Factor Authentication (MFA) for the account                                                                           | 4/5/2026 | 4/5/2026      | First Cloud AI Journey Course             |
+| Tue | - Practice permission handling in IAM, group management, and isolating privileges between Root User and IAM Users <br> - Create sub-accounts to serve daily operational tasks                                                | 5/5/2026 | 5/5/2026      | First Cloud AI Journey Course             |
+| Wed | - Learn the theoretical foundations of Module 02 regarding Amazon Virtual Private Cloud (VPC) <br> - Explore core concepts: what a VPC is, public subnets, and private subnets                                               | 6/5/2026 | 6/5/2026      | First Cloud AI Journey Course             |
+| Thu | - Learn about network routing mechanisms via Route Tables and Internet Gateways <br> - Research NAT Gateway solutions that allow private subnet instances to connect one-way to the internet                                 | 7/5/2026 | 7/5/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | - Design the network topology diagram for the practical Lab assignment <br> - Prepare IPv4 CIDR blocks for the VPC and subnets planned for initialization                                                                    | 8/5/2026 | 8/5/2026      | First Cloud AI Journey Course             |
+| Sat | - Conduct the hands-on Lab on the AWS Management Console <br> - Initialize the VPC, partition public/private subnets, attach the Internet Gateway, configure Route Tables, and establish firewall rules with Security Groups | 9/5/2026 | 9/5/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
-### Week 3 Achievements:
+### Week 2 Achievements:
 
-| Day | Task                                                   | Achievement                                                                                                                                                                                                                                                                                           |
-| --- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mon | NAT gateway connectivity planning                      | Mastered the theoretical process of deploying a NAT Gateway inside a public subnet, successfully allocating a static Elastic IP, and routing outbound traffic from a private network safely.                                                                                                          |
-| Tue | Secure connection method research                      | Gained expertise in setting up an EC2 Instance Connect Endpoint (EICE) within a VPC to manage private instance terminal sessions securely via the web console.                                                                                                                                        |
-| Wed | Firewall rules analysis & troubleshooting              | Acquired a deep understanding of setting up nested security groups and learned how to resolve SSH connection timeouts by precisely establishing required Inbound/Outbound Rules.                                                                                                                      |
-| Thu | Cloud cost optimization studies                        | Developed a clear accountability for cloud resources by calculating specific consumption expenses, such as the idle idle fee of $0.045 per hour for a running NAT Gateway.                                                                                                                            |
-| Fri | Lab script & cleanup workflow preparation              | Finalized the operational blueprint, detailing network verification syntax (such as ping and curl commands) alongside step-by-step infrastructure disposal sequences.                                                                                                                                 |
-| Sat | Hands-on lab implementation & resource decommissioning | Confirmed successful outbound internet access from the private instance through the NAT Gateway. Accessed the EC2-Private terminal directly and applied cost optimization by cleanly deleting the NAT Gateway, releasing the Elastic IP, terminating test instances, and tearing down the custom VPC. |
-
----
-
-### Practical Evidence Images:
-
-#### 1. Establishing an SSH connection to the public server (EC2-Public) via MobaXterm
-
-Successfully connected to the public server instance at IP `34.239.227.34` running Amazon Linux 2023 using the MobaXterm client SSH session.
-![Establishing an SSH connection to EC2 Public via MobaXterm](image-1.png)
-
-#### 2. Checking Internet connectivity and executing API calls from the Public instance
-
-Executed a successful `ping` command to test public wide-area network routing to Google and leveraged `curl -I` to verify valid HTTP header responses from Amazon.
-![Checking network connectivity from the Public instance](image-2.png)
-
-#### 3. Configuring key pair permissions and performing a multi-hop SSH connection from Public to Private
-
-Configured secure access permissions for the private key file (`chmod 400`) and initiated a protected internal SSH connection from the public subnet space into the private server instance (`10.0.2.157`).
-![SSH from Public instance to Private instance](image-3.png)
-
-#### 4. Allocating a static public IP (Elastic IP) for the NAT Gateway infrastructure
-
-The VPC management dashboard indicates successful allocation of a dedicated static Elastic IP `32.194.27.77` designated as `EIP-NAT-AZ1a` to back the gateway network routing.
-![Allocating an Elastic IP](image-4.png)
-
-#### 5. Launching the NAT Gateway resource within the AWS Management Console
-
-The networking engine records that the `NAT-Gateway-AZ1a` service has been properly mapped to the newly provisioned static Elastic IP and has fully transitioned into the active `Available` state.
-![Launching the NAT Gateway](image-5.png)
-
-#### 6. Verifying one-way outbound network communication from the isolated Private server
-
-Following proper route table updates through the NAT Gateway, the isolated `EC2-Private` host successfully executed a `ping 8.8.8.8` request, receiving complete external data packets.
-![Testing network routing from Private instance via NAT Gateway](image-6.png)
-
-#### 7. Direct terminal administration utilizing the EC2 Instance Connect Endpoint (EICE) service
-
-Established an authenticated secure console session straight into the private environment terminal from a standard web browser interface via the designated endpoint attachment.
-![Access via EC2 Instance Connect Endpoint](image-7.png)
+| Day | Task                                            | Achievement                                                                                                                                                                                                                                                                                                                                         | Image                                             |
+| --- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Mon | Multi-Factor Authentication (MFA) configuration | Successfully configured Multi-Factor Authentication (MFA) for the account environment, strengthening the system security shield.                                                                                                                                                                                                                    | ![MFA](image.png)                                 |
+| Tue | IAM permissions & account management            | Ensured Root User safety by disabling active access keys. Managed and allocated permissions for the sub-user account truc-user within the Admin-groups for daily operations in compliance with regulations.                                                                                                                                         | ![IAM](image-3.png)                               |
+| Wed | Amazon VPC theoretical foundations              | Clearly understood the logic isolation nature of a Virtual Private Cloud (VPC) to separate development environments (dev, test, production). Mastered partitioning the network space into public and private subnets.                                                                                                                               | _(Amazon VPC network architecture diagram)_       |
+| Thu | Network routing mechanism research              | Comprehended the operational behavior of Default route tables and Custom route tables. Learned how to utilize an Internet Gateway to open outbound internet traffic and how a NAT Gateway securely connects private subnet resources one-way.                                                                                                       | _(System routing configuration illustration)_     |
+| Fri | Infrastructure resource allocation planning     | Explicitly determined technical parameters, the 10.0.0.0/16 CIDR block, and planned clear associations for network components prior to live deployment on the console.                                                                                                                                                                              | _(Lab IP allocation table illustration)_          |
+| Sat | Live implementation of Lab 03 (VPC deployment)  | Successfully initialized the virtual network named truc-vpc (IPv4 CIDR 10.0.0.0/16). Detailed configuration completed for truc-public-subnet1 and truc-private-subnet1. Attached the truc-igw gateway, created the truc-route-Public1 route table, and established two security groups allowing secure management of SSH, Ping, and HTTP protocols. | ![Your VPCs](image-1.png) ![Subnets](image-2.png) |

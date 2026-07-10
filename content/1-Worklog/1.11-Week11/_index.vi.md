@@ -1,59 +1,27 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+date: 2026-06-22
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 11:
+- **Mục tiêu hàng tuần:** Tách biệt logic chấm điểm khỏi yêu cầu nộp bài bằng cách sử dụng SQS Grading Queue (Hàng đợi chấm điểm) và Lambda Grading Worker.  
+- **Kết quả đạt được:** Backend lưu bài nộp với trạng thái đang chấm điểm (grading status), gửi một tác vụ (job) đến SQS, và worker xử lý việc chấm điểm/cập nhật kết quả vào MongoDB.
 
-### Mục tiêu tuần 11:
+### Các nhiệm vụ thực hiện trong tuần này:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - **Khởi tạo Hàng đợi:** <br>&emsp; + Tạo SQS Grading Queue <br>&emsp; + Cấu hình Dead-Letter Queue (DLQ - Hàng đợi thư chết) cho các tác vụ chấm điểm thất bại | 22/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Tái cấu trúc Backend:** <br>&emsp; + Cập nhật Express API để lưu các bài nộp ban đầu với trạng thái 'đang chấm điểm' (grading) <br>&emsp; + Tích hợp AWS SDK để đẩy các tác vụ lên SQS | 23/06/2026 | 23/06/2026 | Internal Project Docs |
+| 3 | - **Thiết lập Lambda:** <br>&emsp; + Khởi tạo Lambda Grading Worker <br>&emsp; + Cấu hình các IAM role để cấp quyền đọc SQS và quyền ghi vào MongoDB | 24/06/2026 | 24/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - **Triển khai Logic chấm điểm:** <br>&emsp; + Viết logic cho Lambda để xử lý các message từ SQS và tính điểm <br>&emsp; + Kết nối Lambda với MongoDB để cập nhật kết quả | 25/06/2026 | 25/06/2026 | Internal Project Docs |
+| 5 | - **Kiểm thử Toàn trình (End-to-End):** <br>&emsp; + Kiểm thử luồng nộp bài bất đồng bộ từ frontend đến cơ sở dữ liệu <br>&emsp; + Xác minh việc xử lý và xóa message trên SQS | 26/06/2026 | 26/06/2026 | Internal Project Docs |
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 11:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Thành quả Tuần 11:
+* Tách biệt thành công logic chấm điểm nặng nề khỏi luồng nộp bài tức thời của người dùng bằng cách sử dụng Amazon SQS.
+* Cải thiện thời gian phản hồi của API nhờ việc backend trả về ngay kết quả thành công trong khi lưu trạng thái tạm thời "đang chấm điểm" (grading) vào cơ sở dữ liệu.
+* Khởi tạo và cấu hình bảo mật thành công SQS Grading Queue để đệm (buffer) các tác vụ nộp bài, đảm bảo không mất dữ liệu khi lưu lượng truy cập tăng đột biến.
+* Phát triển và triển khai một Lambda Grading Worker chuyên dụng có khả năng tự động mở rộng để xử lý các message từ hàng đợi.
+* Xác minh rằng Lambda worker tính điểm chính xác và cập nhật thành công kết quả chấm điểm cuối cùng trực tiếp vào MongoDB.
