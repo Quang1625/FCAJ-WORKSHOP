@@ -17,10 +17,17 @@ Trong quá trình học tập, em đã tham gia 4 events, với mỗi event là 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
+### [Event 1](4.1-Event1/)
+&emsp;**Tên sự kiện:** FCAJ Community Day
+
+&emsp;**Thời gian:** 09:00 ngày 23/05/2026
+
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 
-
-### [Event 2](4.2-Event2/)
+### [Event 3](4.3-Event3/)
 &emsp;**Tên sự kiện:** FCAJ Community Day
 
 &emsp;**Thời gian:** 09:00 ngày 27/06/2026

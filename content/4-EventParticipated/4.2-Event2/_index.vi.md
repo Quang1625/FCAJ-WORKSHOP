@@ -1,124 +1,73 @@
 ---
-title: "Event 4"
-date: 2026-07-05
-weight: 1
+title: "Event 2"
+date: 2026-06-13
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
+# Report on “First Cloud Journey & Tech Career Meetup”
 
+### Event Objectives
 
-# Bài thu hoạch “FCAJ Community Day 27/06”
+- Chia sẻ hành trình học tập Cloud computing và phát triển từ sinh viên trở thành AWS Partner.
+- Hiểu rõ phạm vi công việc thực tế, trách nhiệm và nhu cầu tuyển dụng của kỹ sư DevOps tại Việt Nam.
+- Khám phá các công việc phân tích dữ liệu, lộ trình thăng tiến và văn hóa doanh nghiệp tại các tập đoàn đa quốc gia (MNC).
 
-### Mục Đích Của Sự Kiện
+### Speaker List
 
-- Giới thiệu các giải pháp AI Agents và AgenticOps nhằm hiện đại hóa quy trình vận hành trên nền tảng Cloud.
-- Chia sẻ các ứng dụng AI trong DevOps, Voice Agents và quản trị doanh nghiệp.
-- Hướng dẫn xây dựng các kết nối bảo mật cho hệ thống AI và Amazon Q.
-- Cập nhật xu hướng ứng dụng AI nhằm nâng cao hiệu suất làm việc và tối ưu hóa vận hành doanh nghiệp.
+- **Danh Hoàng Hiếu Nghị** - From First Cloud AI Journey to AWS Partner
+- **Trong H. Truong** - What does a DevOps Engineer really do? Why you interested in DevOps?
+- **Dat Pham & Cường Nguyễn** - Câu chuyện thực tế đến văn hóa tại tập đoàn đa quốc gia
 
-### Danh Sách Diễn Giả
+### Featured Content
 
-- **Steve Tran** - AgenticOps for Cloud Operations
-- **Trung Vu, Nghi Danh, Kiet Tran** - Building Voice Agent at Scale 
-- **Bao Phan ,Nguyen Nguyen** - AWS DevOps Agent
-- **Truong (Wayne) Tran, Anh Dang (Akie)** - AI-Powered Productivity
-- **Nguyễn Đức Toàn, Danh Hoàng Hữu Nghị** - Secure Private MCP for Amazon Q
+#### First Cloud AI Journey
+- Giới thiệu hành trình 8 bước từ sự tò mò của sinh viên (Student Curiosity) đến khi giải quyết các bài toán thực tế và chia sẻ lại cho cộng đồng (Share Back).
+- Tổng quan về các chương trình xây dựng cộng đồng như AWS Student Builder Group và AWS Community Builder.
+- Cung cấp lộ trình thực hành nền tảng AWS cốt lõi như thiết lập tài khoản, quản lý chi phí và triển khai hạ tầng mạng.
 
-### Nội Dung Nổi Bật
+#### Demystifying the DevOps Engineer Role
+- Làm rõ nhu cầu tuyển dụng đang tăng mạnh và mức lương cạnh tranh của kỹ sư DevOps tại Việt Nam trong giai đoạn 2016-2026.
+- Đối chiếu giữa kỳ vọng về DevOps (chỉ làm CI/CD, IaC, Kubernetes) với thực tế khốc liệt (xử lý sự cố, trực hệ thống 24/7, kiểm tra chi phí đám mây).
+- Nhấn mạnh tầm quan trọng của các kiến thức nền tảng: Linux, Mạng (Networking), Lập trình (Python/Golang), Git và Containers.
 
-#### AgenticOps for Cloud Operations
+#### Data Analytics & Corporate Culture
+- Chi tiết hóa công việc hàng ngày của một Data Analytics Engineer, bao gồm xây dựng báo cáo định kỳ, thiết kế Dashboard quản lý và phân tích các chỉ số vận hành.
+- Xác định 4 kỹ năng thiết yếu cho sinh viên: Tư duy phản biện, Kỹ năng giao tiếp, Kể chuyện với dữ liệu và Giải quyết vấn đề.
+- Giải thích 5 giai đoạn phát triển sự nghiệp: Follower, Learner, Problem Solver, System Thinker, và Super Star.
+- Giới thiệu các đặc trưng văn hóa tại MNC như "No-Blame Post-Mortem" (tập trung tìm nguyên nhân cốt lõi thay vì đổ lỗi) và "Caring & Inclusive".
 
-- Giới thiệu khái niệm **AgenticOps**, ứng dụng AI Agents vào quá trình vận hành hạ tầng Cloud.
-- Tự động hóa các tác vụ giám sát, vận hành và xử lý sự cố.
-- Giảm khối lượng công việc thủ công cho đội ngũ vận hành.
-- Hướng đến mô hình quản trị Cloud thông minh với các AI Agents hoạt động liên tục.
+### What I Learned
 
-#### AWS DevOps Agent
+#### Career Mindset
+- Hiểu được rằng trong lĩnh vực DevOps, việc sao chép câu lệnh không giống với việc thực sự hiểu bản chất của hệ thống.
+- Rèn luyện thói quen đặt câu hỏi "tại sao" trước khi hỏi "làm thế nào" và xác định đúng người chịu trách nhiệm cho vấn đề.
+- Quá trình thăng tiến sự nghiệp đòi hỏi sự chuyển dịch từ việc chỉ thực thi nhiệm vụ (Follower) sang việc nhìn nhận bức tranh toàn cảnh và tối ưu hóa hệ thống lâu dài (System Thinker).
 
-- Giới thiệu **AWS DevOps Agent** như một trợ lý hỗ trợ đội ngũ DevOps.
-- Hỗ trợ xử lý các tác vụ vận hành, giám sát và phản hồi sự cố.
-- Tăng tốc độ xử lý và nâng cao hiệu quả trong quá trình quản trị hệ thống.
-- Minh họa vai trò của AI trong việc hỗ trợ kỹ sư Cloud và DevOps.
+#### Engineering Architecture & Culture
+- Phạm vi công việc của DevOps phụ thuộc rất nhiều vào bối cảnh, quy mô công ty, kích thước dự án và hệ thống tự động hóa hiện có.
+- Văn hóa kỹ thuật tốt trong các MNC tập trung vào việc bảo vệ uy tín, sự an toàn thông tin thông qua các tiêu chuẩn khắt khe (như ISO 27001 hoặc SOC 2) cho chuỗi cung ứng kỹ thuật số.
+- Ứng dụng AI nên được dùng để nâng cao kỹ năng thay vì khiến bản thân ngừng tư duy.
 
-#### Secure Private MCP for Amazon Q
+### Applications in Work
+- Áp dụng lộ trình First Cloud AI Journey để làm chủ các dịch vụ cốt lõi của AWS thông qua các bài thực hành thực tế.
+- Tập trung xây dựng các dự án nhỏ để tự triển khai ứng dụng, tự động hóa quy trình, giám sát và tự sửa lỗi nhằm nắm chắc nền tảng DevOps.
+- Vận dụng kỹ năng kể chuyện với dữ liệu (Data Storytelling) để biến những con số khô khan thành những báo cáo có giá trị thúc đẩy hành động kinh doanh.
+- Thực hành văn hóa "No-Blame Post-Mortem" khi phân tích và xử lý các lỗi hệ thống trong quá trình làm việc nhóm.
 
-- Chia sẻ kinh nghiệm xây dựng **Secure Private MCP** cho Amazon Q.
-- Đảm bảo kết nối riêng tư giữa AI và hệ thống doanh nghiệp.
-- Tăng cường bảo mật dữ liệu trong quá trình triển khai AI.
-- Nhấn mạnh vai trò của bảo mật trong toàn bộ hành trình ứng dụng AI vào doanh nghiệp.
+### Event Experience
 
-#### Building Voice Agent at Scale
+Việc tham gia sự kiện đã mang lại cho tôi một cái nhìn toàn diện và thực tế về các con đường sự nghiệp trong ngành IT, từ Cloud, DevOps cho đến Phân tích dữ liệu. Một số điểm nổi bật bao gồm:
 
-- Giới thiệu quy trình xây dựng **Voice Agent** quy mô lớn.
-- Xử lý dữ liệu âm thanh theo thời gian thực (Real-time Audio).
-- Thiết kế **Agent Runtime** phục vụ triển khai trong môi trường thực tế.
-- Đảm bảo khả năng mở rộng và hiệu suất khi số lượng người dùng tăng cao.
+#### Learning from Experienced Speakers
+- Có cái nhìn sâu sắc hơn về những "cơn đau đầu" thực sự của một kỹ sư DevOps, từ việc giải quyết phàn nàn hệ thống chậm đến việc tối ưu hóa hóa đơn đám mây (Cloud bill).
+- Hiểu được cách các kỹ sư dữ liệu tại doanh nghiệp xây dựng Dashboard để theo dõi tỷ lệ lấp đầy đơn hàng (Fill rate), chi phí vận hành (Fulfillment & Last Mile Cost) và dự phòng rủi ro.
 
-#### AI-Powered Productivity
+#### Networking and Exchange
+- Nhận thấy giá trị to lớn của việc tham gia các nhóm học thuật như AWS Student Builder Group để cùng nhau rèn luyện kỹ năng, tích lũy điểm thưởng và nhận các chứng chỉ AWS.
+- Nắm bắt được quy trình tuyển dụng chuẩn mực tại các tập đoàn đa quốc gia, từ vòng sàng lọc hồ sơ tự động (ATS) đến phỏng vấn đánh giá sự hòa hợp văn hóa trực tiếp với Leadership.
 
-- Ứng dụng AI vào bài toán **Workforce Planning** trong doanh nghiệp.
-- Hỗ trợ phân bổ nguồn lực và tối ưu hiệu suất làm việc.
-- Giúp doanh nghiệp đưa ra quyết định dựa trên dữ liệu và AI.
-- Minh họa khả năng AI hỗ trợ quản lý và nâng cao năng suất tổ chức.
-
-
-### Những Gì Học Được
-
-#### Tư Duy Thiết Kế
-
-- **Agent-first mindset**: Xây dựng các AI Agents có khả năng tự động thực hiện và phối hợp nhiều tác vụ thay vì chỉ sử dụng các công cụ đơn lẻ.
-- **Security-first approach**: Bảo mật cần được ưu tiên ngay từ giai đoạn thiết kế các hệ thống AI.
-- Luôn kết hợp giữa Cloud, AI và dữ liệu để xây dựng các giải pháp hiện đại và có khả năng mở rộng.
-
-#### Kiến Trúc Kỹ Thuật
-
-- Hiểu rõ mô hình AgenticOps và cách AI hỗ trợ vận hành hạ tầng Cloud.
-- Nắm được kiến trúc triển khai **Voice Agent** từ xử lý âm thanh đến Agent Runtime.
-- Hiểu cách **AI-powered Workforce Planning** hỗ trợ doanh nghiệp tối ưu nguồn lực.
-- Tiếp cận phương pháp xây dựng **Secure Private MCP** nhằm bảo vệ dữ liệu khi triển khai các ứng dụng AI.
-
-#### Định Hướng Phát Triển
-
-- Nhận thức được xu hướng ứng dụng AI Agents trong Cloud Operations và DevOps.
-- Hiểu rằng khả năng kết hợp AI với Cloud sẽ trở thành một kỹ năng quan trọng trong tương lai.
-- Học được cách cân bằng giữa hiệu quả tự động hóa và các yêu cầu về bảo mật trong hệ thống AI.
-
-### Ứng Dụng Vào Công Việc
-
-- **Nghiên cứu triển khai DevOps Agent** nhằm hỗ trợ giám sát và xử lý các tác vụ vận hành trong môi trường Cloud.
-- **Tìm hiểu Agent Runtime** để phát triển các ứng dụng tương tác bằng giọng nói cho các hệ thống thông minh.
-- **Áp dụng AI-powered Workforce Planning** trong việc lập kế hoạch và phân bổ nguồn lực cho các dự án.
-- **Nghiên cứu Secure Private MCP** nhằm xây dựng các kết nối an toàn giữa AI và hệ thống doanh nghiệp.
-- Chủ động cập nhật các giải pháp AgenticOps để nâng cao hiệu quả quản trị Cloud trong các dự án thực tế.
-
-### Trải nghiệm trong event
-
-Tham gia **FCAJ Community Day 27/06** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn rõ hơn về xu hướng ứng dụng AI Agents trong vận hành Cloud và quản trị doanh nghiệp hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có nhiều kinh nghiệm
-- Các diễn giả đến từ AWS và các đối tác như **Cloud Kinetics, Renova**, đã chia sẻ nhiều kinh nghiệm thực tế về AI Agents, DevOps và AI Security.
-- Nội dung được trình bày thông qua các tình huống thực tế, giúp người tham dự hiểu rõ cách triển khai AI trong doanh nghiệp.
-
-#### Tiếp cận các công nghệ hiện đại
-- Hiểu rõ hơn về mô hình **AgenticOps**, trong đó AI Agents hỗ trợ vận hành hạ tầng Cloud một cách tự động và liên tục.
-- Tìm hiểu quy trình xây dựng **Voice Agent** với khả năng xử lý dữ liệu thời gian thực và mở rộng cho môi trường sản xuất.
-- Tiếp cận mô hình **AI-powered Workforce Planning**, giúp doanh nghiệp tối ưu hóa việc quản lý nguồn nhân lực bằng AI.
-
-#### Bảo mật trong hành trình triển khai AI
-- Chủ đề **Secure Private MCP** giúp tôi nhận thức rõ hơn về vai trò của bảo mật trong quá trình tích hợp AI với hệ thống doanh nghiệp.
-- Hiểu rằng việc xây dựng các kết nối riêng tư và bảo vệ dữ liệu là yếu tố quan trọng để AI có thể được triển khai an toàn trong môi trường thực tế.
-
-#### Kết nối và trao đổi
-- Community Day tạo cơ hội gặp gỡ các chuyên gia và những người đang làm việc trong lĩnh vực Cloud, AI và DevOps.
-- Qua các phiên trao đổi, tôi hiểu thêm về xu hướng phát triển của AI Agents cũng như những kỹ năng cần chuẩn bị để thích nghi với sự thay đổi của ngành công nghệ.
-
-#### Bài học rút ra
-- **AI Agents** đang trở thành xu hướng quan trọng trong việc hiện đại hóa vận hành Cloud và hỗ trợ các đội ngũ DevOps.
-- Việc triển khai AI hiệu quả không chỉ phụ thuộc vào khả năng tự động hóa mà còn phải đảm bảo bảo mật, khả năng mở rộng và độ tin cậy của hệ thống.
-- Những giải pháp như **AgenticOps, Voice Agent** và **AI-powered Workforce Planning** cho thấy AI có thể hỗ trợ con người nâng cao năng suất và chất lượng công việc trong nhiều lĩnh vực khác nhau.
-- Để theo kịp xu hướng phát triển của Cloud và AI, cần liên tục cập nhật kiến thức, rèn luyện kỹ năng thực hành và chủ động tiếp cận các công nghệ mới.
-
-#### Một số hình ảnh khi tham gia sự kiện
-![Ảnh 1](/images/event2.jpg)
-![Ảnh 2](/images/event21.jpg)
-![Ảnh 3](/images/event22.jpg)
+#### Lessons Learned
+- Một kỹ sư giỏi là người tư duy theo hệ thống chứ không chỉ tập trung vào từng tác vụ lẻ tẻ, đồng thời biết cách làm cho mọi thứ trở nên rõ ràng và dễ dàng hơn cho cả nhóm.
+- Các công cụ công nghệ có thể thay đổi liên tục trên thị trường, nhưng những nền tảng kiến thức cơ bản và tinh thần tò mò học hỏi sẽ luôn giữ nguyên giá trị.
+- Để đạt được đỉnh cao sự nghiệp (Super Star), không chỉ cần giải quyết bài toán chuyên môn hiện tại mà còn phải xây dựng tầm nhìn chiến lược và đào tạo thế hệ tư duy hệ thống kế cận.

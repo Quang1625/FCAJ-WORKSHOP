@@ -18,11 +18,19 @@ During my studies, I participated in four events, each a memorable experience fi
 
 &emsp;**Role:** Attendee  
 
-
-
-
-
 ### [Event 2](4.2-Event2/)  
+&emsp;**Event Name:** FCAJ Community Day  
+
+&emsp;**Date & Time:** 09:00, June 13, 2026  
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee  
+
+
+
+
+### [Event 3](4.3-Event3/)  
 &emsp;**Event Name:** FCAJ Community Day  
 
 &emsp;**Date & Time:** 09:00, June 27, 2026  
