@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 3"
-date: 2026-04-27
+date: 2026-05-04
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
@@ -18,12 +18,12 @@ pre: " <b> 1.3. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Nghiên cứu sâu về quản lý danh tính và bảo mật người dùng trên hệ thống <br> - Tìm hiểu cách thiết lập Xác thực đa yếu tố (MFA) cho tài khoản | 4/5/2026 | 4/5/2026 | Khóa học First Cloud AI Journey |
-| 3 | - Thực hành phân quyền trong IAM, quản lý nhóm người dùng và cô lập đặc quyền giữa Root User và IAM Users <br> - Tạo các tài khoản phụ phục vụ cho các tác vụ vận hành hàng ngày | 5/5/2026 | 5/5/2026 | Khóa học First Cloud AI Journey |
-| 4 | - Học lý thuyết cốt lõi của Module 02 về Amazon Virtual Private Cloud (VPC) <br> - Khám phá các khái niệm cơ bản: VPC là gì, public subnet và private subnet | 6/5/2026 | 6/5/2026 | Khóa học First Cloud AI Journey |
-| 5 | - Tìm hiểu về cơ chế định tuyến mạng thông qua Route Tables và Internet Gateways <br> - Nghiên cứu giải pháp NAT Gateway cho phép các tài nguyên trong private subnet kết nối một chiều ra internet | 7/5/2026 | 7/5/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Thiết kế sơ đồ kiến trúc mạng cho bài thực hành Lab <br> - Chuẩn bị dải IPv4 CIDR cho VPC và các subnet dự kiến khởi tạo | 8/5/2026 | 8/5/2026 | Khóa học First Cloud AI Journey |
-| 7 | - Thực hiện bài Lab thực hành trên AWS Management Console <br> - Khởi tạo VPC, phân chia public/private subnets, gắn Internet Gateway, cấu hình Route Tables và thiết lập các quy tắc tường lửa với Security Groups | 9/5/2026 | 9/5/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Nghiên cứu sâu về quản lý danh tính và bảo mật người dùng trên hệ thống <br> - Tìm hiểu cách thiết lập Xác thực đa yếu tố (MFA) cho tài khoản | 04/05/2026 | 04/05/2026 | Khóa học First Cloud AI Journey |
+| 3 | - Thực hành phân quyền trong IAM, quản lý nhóm người dùng và cô lập đặc quyền giữa Root User và IAM Users <br> - Tạo các tài khoản phụ phục vụ cho các tác vụ vận hành hàng ngày | 05/05/2026 | 05/05/2026 | Khóa học First Cloud AI Journey |
+| 4 | - Học lý thuyết cốt lõi của Module 02 về Amazon Virtual Private Cloud (VPC) <br> - Khám phá các khái niệm cơ bản: VPC là gì, public subnet và private subnet | 06/05/2026 | 06/05/2026 | Khóa học First Cloud AI Journey |
+| 5 | - Tìm hiểu về cơ chế định tuyến mạng thông qua Route Tables và Internet Gateways <br> - Nghiên cứu giải pháp NAT Gateway cho phép các tài nguyên trong private subnet kết nối một chiều ra internet | 07/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Thiết kế sơ đồ kiến trúc mạng cho bài thực hành Lab <br> - Chuẩn bị dải IPv4 CIDR cho VPC và các subnet dự kiến khởi tạo | 08/05/2026 | 08/05/2026 | Khóa học First Cloud AI Journey |
+| 7 | - Thực hiện bài Lab thực hành trên AWS Management Console <br> - Khởi tạo VPC, phân chia public/private subnets, gắn Internet Gateway, cấu hình Route Tables và thiết lập các quy tắc tường lửa với Security Groups | 09/05/2026 | 09/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 3:
 

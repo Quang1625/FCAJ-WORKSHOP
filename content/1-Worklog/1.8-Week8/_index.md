@@ -1,6 +1,6 @@
 ---
 title: "Worklog Week 8"
-date: 2026-06-01
+date: 2026-06-09
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -19,11 +19,11 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                    | Start Date | Completion Date | Reference Material                        |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| 1   | - **Security Core:** Learn about the AWS Shared Responsibility Model and monitoring tools (Amazon CloudWatch & AWS CloudTrail)                                          | 06/01/2026 | 06/01/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 2   | - **Workshop Team - Code Review:** Deep dive into Examora's current frontend and backend source code to understand the existing structure and data flow                 | 06/02/2026 | 06/02/2026      | <https://docs.aws.amazon.com/apigateway/>                    |
-| 3   | - **Workshop Team - Architecture:** Define the MVP scope, decide which modules remain in the current stack, and which transition to the AWS Serverless Hybrid model     | 06/03/2026 | 06/03/2026      | ExamoraServerless/01_Examora_KienTruc_Serverless.md                     |
-| 4   | - **Backend Migration & Auth:** Create the initial implementation backlog. Configure Amazon Cognito/SES and deploy the refactored Express backend to AWS Lambda         | 06/04/2026 | 06/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - **Frontend & API Security:** Connect the frontend to the serverless APIs and secure the endpoints using an Amazon API Gateway JWT Authorizer                          | 06/05/2026 | 06/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - **Security Core:** Learn about the AWS Shared Responsibility Model and monitoring tools (Amazon CloudWatch & AWS CloudTrail)                                          | 09/06/2026 | 09/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - **Workshop Team - Code Review:** Deep dive into Examora's current frontend and backend source code to understand the existing structure and data flow                 | 10/06/2026 | 10/06/2026      | <https://docs.aws.amazon.com/apigateway/>                    |
+| 3   | - **Workshop Team - Architecture:** Define the MVP scope, decide which modules remain in the current stack, and which transition to the AWS Serverless Hybrid model     | 11/06/2026 | 11/06/2026      | ExamoraServerless/01_Examora_KienTruc_Serverless.md                     |
+| 4   | - **Backend Migration & Auth:** Create the initial implementation backlog. Configure Amazon Cognito/SES and deploy the refactored Express backend to AWS Lambda         | 12/06/2026 | 12/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Frontend & API Security:** Connect the frontend to the serverless APIs and secure the endpoints using an Amazon API Gateway JWT Authorizer                          | 13/06/2026 | 13/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 8 Achievements:
 * Gained a solid understanding of AWS security responsibilities and core monitoring services.

@@ -1,7 +1,7 @@
 ---
-Title: "Event 4"
-Date: 2026-07-05
-Weight: 1
+Title: "Event 2"
+Date: 2026-06-27
+Weight: 2
 Chapter: False
 Pre: "<b>4.2.</b>"
 

@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 5"
-date: 2026-05-11
+date: 2026-05-18
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
@@ -12,11 +12,11 @@ pre: " <b> 1.5. </b> "
 ### Các nhiệm vụ thực hiện trong tuần này:
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 1 | - Tìm hiểu cơ bản về AWS Cloud9 <br> - **Thực hành:** Tạo môi trường Cloud9 và khám phá không gian làm việc IDE | 11/05/2026 | 11/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 2 | - Viết và chạy các script cơ bản (Python/Node.js) trực tiếp trong môi trường Cloud9 <br> - Hiểu cách Cloud9 tương tác với EC2 instance bên dưới | 12/05/2026 | 12/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu cơ bản về Amazon S3: <br>&emsp; + Buckets và Objects <br>&emsp; + Các thiết lập Chặn truy cập công khai (Block Public Access) <br>&emsp; + Bucket Policies | 13/05/2026 | 13/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Nắm rõ các yêu cầu để Lưu trữ trang web tĩnh trên S3 (tài liệu Index và Error) | 14/05/2026 | 14/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - **Thực hành:** <br>&emsp; + Tạo S3 bucket <br>&emsp; + Tải lên các tệp HTML/CSS <br>&emsp; + Áp dụng policy cấp quyền đọc công khai (public read) <br>&emsp; + Truy cập URL của trang web | 15/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 1 | - Tìm hiểu cơ bản về AWS Cloud9 <br> - **Thực hành:** Tạo môi trường Cloud9 và khám phá không gian làm việc IDE | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Viết và chạy các script cơ bản (Python/Node.js) trực tiếp trong môi trường Cloud9 <br> - Hiểu cách Cloud9 tương tác với EC2 instance bên dưới | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu cơ bản về Amazon S3: <br>&emsp; + Buckets và Objects <br>&emsp; + Các thiết lập Chặn truy cập công khai (Block Public Access) <br>&emsp; + Bucket Policies | 19/05/2026 | 19/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Nắm rõ các yêu cầu để Lưu trữ trang web tĩnh trên S3 (tài liệu Index và Error) | 20/05/2026 | 20/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo S3 bucket <br>&emsp; + Tải lên các tệp HTML/CSS <br>&emsp; + Áp dụng policy cấp quyền đọc công khai (public read) <br>&emsp; + Truy cập URL của trang web | 21/05/2026 | 21/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Thành quả Tuần 5:
 * Đã khởi tạo thành công môi trường phát triển AWS Cloud9 và làm quen với IDE trên trình duyệt.

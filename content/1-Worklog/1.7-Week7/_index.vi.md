@@ -1,6 +1,6 @@
 ---
 title: "Nhật ký công việc Tuần 7"
-date: 2026-05-25
+date: 2026-06-02
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -15,11 +15,11 @@ pre: " <b> 1.7. </b> "
 ### Các nhiệm vụ thực hiện trong tuần này:
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 1 | - Tìm hiểu nền tảng kiến trúc Serverless <br> - Hiểu các mô hình thực thi của AWS Lambda <br> - **Thực hành:** Tạo và kiểm thử một hàm Lambda "Hello World" đơn giản | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 2 | - Tìm hiểu các khái niệm về Amazon API Gateway (REST APIs, HTTP APIs, Endpoints) <br> - **Thực hành:** Kết nối API Gateway với AWS Lambda để kích hoạt hàm thông qua HTTP request | 26/05/2026 | 26/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu cơ bản về NoSQL và Amazon DynamoDB: <br>&emsp; + Partition keys (Khóa phân vùng) và Sort keys (Khóa sắp xếp) <br>&emsp; + Các chế độ công suất đọc/ghi (Read/Write capacity modes) <br> - **Thực hành:** Tạo một bảng DynamoDB | 27/05/2026 | 27/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - **Thực hành:** Cập nhật hàm Lambda để đọc và ghi dữ liệu vào bảng DynamoDB, hoàn thiện backend serverless | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Tìm hiểu Amazon Cognito để quản lý danh tính <br> - **Thực hành:** <br>&emsp; + Tạo một Cognito User Pool <br>&emsp; + Bảo mật API Gateway sử dụng Cognito Authorizer | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 1 | - Tìm hiểu nền tảng kiến trúc Serverless <br> - Hiểu các mô hình thực thi của AWS Lambda <br> - **Thực hành:** Tạo và kiểm thử một hàm Lambda "Hello World" đơn giản | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Tìm hiểu các khái niệm về Amazon API Gateway (REST APIs, HTTP APIs, Endpoints) <br> - **Thực hành:** Kết nối API Gateway với AWS Lambda để kích hoạt hàm thông qua HTTP request | 03/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu cơ bản về NoSQL và Amazon DynamoDB: <br>&emsp; + Partition keys (Khóa phân vùng) và Sort keys (Khóa sắp xếp) <br>&emsp; + Các chế độ công suất đọc/ghi (Read/Write capacity modes) <br> - **Thực hành:** Tạo một bảng DynamoDB | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - **Thực hành:** Cập nhật hàm Lambda để đọc và ghi dữ liệu vào bảng DynamoDB, hoàn thiện backend serverless | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Tìm hiểu Amazon Cognito để quản lý danh tính <br> - **Thực hành:** <br>&emsp; + Tạo một Cognito User Pool <br>&emsp; + Bảo mật API Gateway sử dụng Cognito Authorizer | 06/06/2026 | 06/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Thành quả Tuần 7:
 * Hiểu các nguyên tắc cốt lõi của điện toán không máy chủ (serverless computing) và kiến trúc hướng sự kiện (event-driven) trên AWS.

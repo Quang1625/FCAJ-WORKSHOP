@@ -1,6 +1,6 @@
 ---
 title: "Worklog Week 12"
-date: 2026-06-29
+date: 2026-07-06
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
@@ -13,11 +13,11 @@ pre: " <b> 1.12. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                 | Start Date | Completion Date | Reference Material                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| 1   | - **Frontend Deployment:** <br>&emsp; + Connect the repository to AWS Amplify Hosting <br>&emsp; + Configure build settings and deploy the frontend application      | 06/29/2026 | 06/29/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 2   | - **Domain & DNS Management:** <br>&emsp; + Register/configure a custom domain using Amazon Route 53 <br>&emsp; + Attach the custom domain to the Amplify deployment | 06/30/2026 | 06/30/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - **CORS & Security Configuration:** <br>&emsp; + Update backend API CORS policies to accept requests from localhost, the Amplify default URL, and the custom domain | 07/01/2026 | 07/01/2026      | Internal Project Docs                     |
-| 4   | - **System Retesting:** <br>&emsp; + Conduct end-to-end testing of all main application flows on the live production environment <br>&emsp; + Resolve any UI/API bugs| 07/02/2026 | 07/02/2026      | Internal Project Docs                     |
-| 5   | - **Documentation & Reporting:** <br>&emsp; + Update system architecture diagrams to reflect the final setup <br>&emsp; + Complete the proposal and workshop report  | 07/03/2026 | 07/03/2026      | Internal Project Docs                     |
+| 1   | - **Frontend Deployment:** <br>&emsp; + Connect the repository to AWS Amplify Hosting <br>&emsp; + Configure build settings and deploy the frontend application      | 06/07/2026 | 06/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - **Domain & DNS Management:** <br>&emsp; + Register/configure a custom domain using Amazon Route 53 <br>&emsp; + Attach the custom domain to the Amplify deployment | 06/07/2026 | 06/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - **CORS & Security Configuration:** <br>&emsp; + Update backend API CORS policies to accept requests from localhost, the Amplify default URL, and the custom domain | 07/07/2026 | 07/07/2026      | Internal Project Docs                     |
+| 4   | - **System Retesting:** <br>&emsp; + Conduct end-to-end testing of all main application flows on the live production environment <br>&emsp; + Resolve any UI/API bugs| 08/07/2026 | 08/07/2026      | Internal Project Docs                     |
+| 5   | - **Documentation & Reporting:** <br>&emsp; + Update system architecture diagrams to reflect the final setup <br>&emsp; + Complete the proposal and workshop report  | 09/07/2026 | 09/07/2026      | Internal Project Docs                     |
 
 ### Week 12 Achievements:
 * Successfully deployed the frontend application to AWS Amplify Hosting, establishing a reliable continuous deployment pipeline.

@@ -1,6 +1,6 @@
 ---
 title: "Nhật ký công việc Tuần 8"
-date: 2026-06-01
+date: 2026-06-09
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -19,11 +19,11 @@ pre: " <b> 1.8. </b> "
 ### Các nhiệm vụ thực hiện trong tuần này:
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 1 | - **Bảo mật cốt lõi:** Tìm hiểu về Mô hình Trách nhiệm Chia sẻ của AWS và các công cụ giám sát (Amazon CloudWatch & AWS CloudTrail) | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 2 | - **Nhóm Workshop - Đánh giá mã nguồn:** Đi sâu tìm hiểu mã nguồn frontend và backend hiện tại của Examora để nắm bắt cấu trúc và luồng dữ liệu sẵn có | 02/06/2026 | 02/06/2026 | <https://docs.aws.amazon.com/apigateway/> |
-| 3 | - **Nhóm Workshop - Kiến trúc:** Xác định phạm vi MVP, quyết định module nào sẽ giữ lại ở hệ thống hiện tại, và module nào sẽ chuyển sang mô hình AWS Serverless Hybrid | 03/06/2026 | 03/06/2026 | ExamoraServerless/01_Examora_KienTruc_Serverless.md |
-| 4 | - **Chuyển đổi Backend & Xác thực:** Tạo backlog triển khai ban đầu. Cấu hình Amazon Cognito/SES và triển khai backend Express đã được tái cấu trúc lên AWS Lambda | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - **Bảo mật Frontend & API:** Kết nối frontend với các API serverless và bảo mật các endpoint sử dụng Amazon API Gateway JWT Authorizer | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 1 | - **Bảo mật cốt lõi:** Tìm hiểu về Mô hình Trách nhiệm Chia sẻ của AWS và các công cụ giám sát (Amazon CloudWatch & AWS CloudTrail) | 09/06/2026 | 09/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Nhóm Workshop - Đánh giá mã nguồn:** Đi sâu tìm hiểu mã nguồn frontend và backend hiện tại của Examora để nắm bắt cấu trúc và luồng dữ liệu sẵn có | 10/06/2026 | 10/06/2026 | <https://docs.aws.amazon.com/apigateway/> |
+| 3 | - **Nhóm Workshop - Kiến trúc:** Xác định phạm vi MVP, quyết định module nào sẽ giữ lại ở hệ thống hiện tại, và module nào sẽ chuyển sang mô hình AWS Serverless Hybrid | 11/06/2026 | 11/06/2026 | ExamoraServerless/01_Examora_KienTruc_Serverless.md |
+| 4 | - **Chuyển đổi Backend & Xác thực:** Tạo backlog triển khai ban đầu. Cấu hình Amazon Cognito/SES và triển khai backend Express đã được tái cấu trúc lên AWS Lambda | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Bảo mật Frontend & API:** Kết nối frontend với các API serverless và bảo mật các endpoint sử dụng Amazon API Gateway JWT Authorizer | 13/06/2026 | 13/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Thành quả Tuần 8:
 * Nắm vững kiến thức về trách nhiệm bảo mật trên AWS và các dịch vụ giám sát cốt lõi.

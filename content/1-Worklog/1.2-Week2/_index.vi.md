@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 2"
-date: 2026-04-20
+date: 2026-04-27
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -19,9 +19,9 @@ pre: " <b> 1.2. </b> "
 
 | Thứ | Hạng mục công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu tham khảo |
 | :---: | :--- | :---: | :---: | :--- |
-| **3** | - Tìm hiểu giao diện AWS Management Console <br> - Cài đặt và cấu hình AWS CLI trên máy tính cá nhân (*Access Key, Secret Key, Default Region*) <br> - Thực hành: Sử dụng các lệnh AWS CLI cơ bản | 21/04/2026 | 21/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **4** | - Tìm hiểu dịch vụ Amazon EC2 cơ bản: *Instance types, AMI, EBS, Elastic IP* <br> - Nghiên cứu các phương thức kết nối SSH từ máy trạm vào EC2 | 22/04/2026 | 22/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **5** | - **Thực hành Lab kỹ thuật**: <br>&emsp; + Khởi tạo EC2 instance hoàn chỉnh <br>&emsp; + Tạo và gắn thêm EBS volume <br>&emsp; + Thực hiện kết nối SSH và quản lý tài nguyên song song qua Console & CLI | 23/04/2026 | 23/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| **3** | - Tìm hiểu giao diện AWS Management Console <br> - Cài đặt và cấu hình AWS CLI trên máy tính cá nhân (*Access Key, Secret Key, Default Region*) <br> - Thực hành: Sử dụng các lệnh AWS CLI cơ bản | 28/04/2026 | 28/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| **4** | - Tìm hiểu dịch vụ Amazon EC2 cơ bản: *Instance types, AMI, EBS, Elastic IP* <br> - Nghiên cứu các phương thức kết nối SSH từ máy trạm vào EC2 | 29/04/2026 | 29/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| **5** | - **Thực hành Lab kỹ thuật**: <br>&emsp; + Khởi tạo EC2 instance hoàn chỉnh <br>&emsp; + Tạo và gắn thêm EBS volume <br>&emsp; + Thực hiện kết nối SSH và quản lý tài nguyên song song qua Console & CLI | 30/04/2026 | 30/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 

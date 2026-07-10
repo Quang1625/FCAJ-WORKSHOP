@@ -1,6 +1,6 @@
 ---
 title: "Worklog Week 7"
-date: 2026-05-25
+date: 2026-06-02
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -15,11 +15,11 @@ pre: " <b> 1.7. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                 | Start Date | Completion Date | Reference Material                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Learn Serverless architecture fundamentals <br> - Understand AWS Lambda execution models <br> - **Practice:** Create and test a simple "Hello World" Lambda function | 05/25/2026 | 05/25/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 2   | - Learn Amazon API Gateway concepts (REST APIs, HTTP APIs, Endpoints) <br> - **Practice:** Connect API Gateway to AWS Lambda to trigger the function via HTTP request  | 05/26/2026 | 05/26/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Learn NoSQL basics and Amazon DynamoDB: <br>&emsp; + Partition keys and Sort keys <br>&emsp; + Read/Write capacity modes <br> - **Practice:** Create a DynamoDB table| 05/27/2026 | 05/27/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - **Practice:** Update the Lambda function to read and write data to the DynamoDB table, completing the serverless backend                                           | 05/28/2026 | 05/28/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn Amazon Cognito for identity management <br> - **Practice:** <br>&emsp; + Create a Cognito User Pool <br>&emsp; + Secure the API Gateway using a Cognito Authorizer | 05/29/2026 | 05/29/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Learn Serverless architecture fundamentals <br> - Understand AWS Lambda execution models <br> - **Practice:** Create and test a simple "Hello World" Lambda function | 02/06/2026 | 02/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn Amazon API Gateway concepts (REST APIs, HTTP APIs, Endpoints) <br> - **Practice:** Connect API Gateway to AWS Lambda to trigger the function via HTTP request  | 03/06/2026 | 03/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Learn NoSQL basics and Amazon DynamoDB: <br>&emsp; + Partition keys and Sort keys <br>&emsp; + Read/Write capacity modes <br> - **Practice:** Create a DynamoDB table| 04/06/2026 | 04/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - **Practice:** Update the Lambda function to read and write data to the DynamoDB table, completing the serverless backend                                           | 05/06/2026 | 05/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Learn Amazon Cognito for identity management <br> - **Practice:** <br>&emsp; + Create a Cognito User Pool <br>&emsp; + Secure the API Gateway using a Cognito Authorizer | 06/06/2026 | 06/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 7 Achievements:
 * Understood the core principles of serverless computing and event-driven architecture on AWS.

@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 9"
-date: 2026-06-08
+date: 2026-06-16
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
@@ -19,11 +19,11 @@ pre: " <b> 1.9. </b> "
 ### Các nhiệm vụ thực hiện trong tuần này:
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 1 | - **Nhóm Workshop - Luồng xác thực:** Triển khai đăng ký người dùng, xác thực OTP qua email sử dụng Amazon SES, và luồng đăng nhập sử dụng Amazon Cognito <br>&emsp; + Đồng bộ hồ sơ người dùng với MongoDB | 08/06/2026 | 08/06/2026 | <https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html/> |
-| 2 | - **Nhóm Workshop - Backend & API:** Triển khai Express backend lên AWS Lambda <br>&emsp; + Cấu hình API Gateway JWT Authorizer và tiến hành kiểm thử các endpoint cơ bản | 09/06/2026 | 09/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - **Tải lên & Import tệp tin:** Chuyển đổi luồng tải lên tệp sang S3 sử dụng presigned URLs <br>&emsp; + Tách và tái cấu trúc (refactor) tính năng import tệp Word thành một hàm Lambda bất đồng bộ | 10/06/2026 | 10/06/2026 | <https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html/> |
-| 4 | - **Tách biệt Chấm điểm & PDF:** Khởi tạo các hàng đợi SQS cho luồng Chấm điểm và Tạo PDF <br>&emsp; + Phát triển và gắn các Lambda Worker để xử lý các tác vụ từ các hàng đợi tương ứng | 11/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - **Tách biệt Email:** Khởi tạo SQS Email Notification Queue (Hàng đợi thông báo Email) <br>&emsp; + Phát triển Lambda Email Notification Worker và kiểm thử toàn trình luồng nộp bài đã được tách biệt hoàn toàn | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 1 | - **Nhóm Workshop - Luồng xác thực:** Triển khai đăng ký người dùng, xác thực OTP qua email sử dụng Amazon SES, và luồng đăng nhập sử dụng Amazon Cognito <br>&emsp; + Đồng bộ hồ sơ người dùng với MongoDB | 16/06/2026 | 16/06/2026 | <https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html/> |
+| 2 | - **Nhóm Workshop - Backend & API:** Triển khai Express backend lên AWS Lambda <br>&emsp; + Cấu hình API Gateway JWT Authorizer và tiến hành kiểm thử các endpoint cơ bản | 17/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - **Tải lên & Import tệp tin:** Chuyển đổi luồng tải lên tệp sang S3 sử dụng presigned URLs <br>&emsp; + Tách và tái cấu trúc (refactor) tính năng import tệp Word thành một hàm Lambda bất đồng bộ | 18/06/2026 | 18/06/2026 | <https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html/> |
+| 4 | - **Tách biệt Chấm điểm & PDF:** Khởi tạo các hàng đợi SQS cho luồng Chấm điểm và Tạo PDF <br>&emsp; + Phát triển và gắn các Lambda Worker để xử lý các tác vụ từ các hàng đợi tương ứng | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Tách biệt Email:** Khởi tạo SQS Email Notification Queue (Hàng đợi thông báo Email) <br>&emsp; + Phát triển Lambda Email Notification Worker và kiểm thử toàn trình luồng nộp bài đã được tách biệt hoàn toàn | 20/06/2026 | 20/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Thành quả Tuần 9:
 * Hoàn thành xuất sắc quy trình xác thực người dùng, bao gồm đăng ký, xác minh OTP qua email bằng SES và đăng nhập qua Cognito.

@@ -1,6 +1,6 @@
 ---
 title: "Worklog Week 3"
-date: 2026-04-27
+date: 2026-05-04
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
@@ -25,12 +25,12 @@ pre: " <b> 1.3. </b> "
 
 | Day | Task                                                                                                                                                                                                                         | Start Date | Completion Date | Documentation Source                      |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| Mon | - Deeply research identity management and user security on the system <br> - Learn how to set up Multi-Factor Authentication (MFA) for the account                                                                           | 4/5/2026 | 4/5/2026      | First Cloud AI Journey Course             |
-| Tue | - Practice permission handling in IAM, group management, and isolating privileges between Root User and IAM Users <br> - Create sub-accounts to serve daily operational tasks                                                | 5/5/2026 | 5/5/2026      | First Cloud AI Journey Course             |
-| Wed | - Learn the theoretical foundations of Module 02 regarding Amazon Virtual Private Cloud (VPC) <br> - Explore core concepts: what a VPC is, public subnets, and private subnets                                               | 6/5/2026 | 6/5/2026      | First Cloud AI Journey Course             |
-| Thu | - Learn about network routing mechanisms via Route Tables and Internet Gateways <br> - Research NAT Gateway solutions that allow private subnet instances to connect one-way to the internet                                 | 7/5/2026 | 7/5/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | - Design the network topology diagram for the practical Lab assignment <br> - Prepare IPv4 CIDR blocks for the VPC and subnets planned for initialization                                                                    | 8/5/2026 | 8/5/2026      | First Cloud AI Journey Course             |
-| Sat | - Conduct the hands-on Lab on the AWS Management Console <br> - Initialize the VPC, partition public/private subnets, attach the Internet Gateway, configure Route Tables, and establish firewall rules with Security Groups | 9/5/2026 | 9/5/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Deeply research identity management and user security on the system <br> - Learn how to set up Multi-Factor Authentication (MFA) for the account                                                                           | 04/05/2026 | 04/05/2026      | First Cloud AI Journey Course             |
+| Tue | - Practice permission handling in IAM, group management, and isolating privileges between Root User and IAM Users <br> - Create sub-accounts to serve daily operational tasks                                                | 05/05/2026 | 05/05/2026      | First Cloud AI Journey Course             |
+| Wed | - Learn the theoretical foundations of Module 02 regarding Amazon Virtual Private Cloud (VPC) <br> - Explore core concepts: what a VPC is, public subnets, and private subnets                                               | 06/05/2026 | 06/05/2026      | First Cloud AI Journey Course             |
+| Thu | - Learn about network routing mechanisms via Route Tables and Internet Gateways <br> - Research NAT Gateway solutions that allow private subnet instances to connect one-way to the internet                                 | 07/05/2026 | 07/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | - Design the network topology diagram for the practical Lab assignment <br> - Prepare IPv4 CIDR blocks for the VPC and subnets planned for initialization                                                                    | 08/05/2026 | 08/05/2026      | First Cloud AI Journey Course             |
+| Sat | - Conduct the hands-on Lab on the AWS Management Console <br> - Initialize the VPC, partition public/private subnets, attach the Internet Gateway, configure Route Tables, and establish firewall rules with Security Groups | 09/05/2026 | 09/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 2 Achievements:
 

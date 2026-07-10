@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 10"
-date: 2026-06-15
+date: 2026-06-23
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
@@ -13,11 +13,11 @@ pre: " <b> 1.10. </b> "
 ### Các nhiệm vụ thực hiện trong tuần này:
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 1 | - **Cấu hình Backend & S3:** <br>&emsp; + Cấu hình CORS và các chính sách IAM cho S3 bucket <br>&emsp; + Triển khai API backend để tạo các S3 presigned URLs | 15/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 2 | - **Tích hợp Frontend:** <br>&emsp; + Cập nhật ứng dụng frontend để gọi API lấy presigned URLs và tải tệp trực tiếp lên S3 <br>&emsp; + Xác minh các S3 prefix (cấu trúc thư mục) | 16/06/2026 | 16/06/2026 |  <https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html>|
-| 3 | - **Khởi tạo Lambda:** <br>&emsp; + Tạo hàm Word Import Lambda <br>&emsp; + Thiết lập gói triển khai (deployment package) với các thư viện phân tích (parsing) tệp `.docx` | 17/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - **Logic phân tích & Cơ sở dữ liệu:** <br>&emsp; + Viết logic trên Lambda để phân tích nội dung `.docx` <br>&emsp; + Kết nối Lambda với MongoDB và ánh xạ (map) các schema dữ liệu câu hỏi | 18/06/2026 | 18/06/2026 | <https://docs.aws.amazon.com/lambda/>  |
-| 5 | - **Kiểm thử Toàn trình (End-to-End):** <br>&emsp; + Kiểm thử toàn bộ luồng tải lên và đường ống (pipeline) import bất đồng bộ <br>&emsp; + Xác thực tính toàn vẹn của dữ liệu trong MongoDB | 19/06/2026 | 19/06/2026 | Internal Project Docs |
+| 1 | - **Cấu hình Backend & S3:** <br>&emsp; + Cấu hình CORS và các chính sách IAM cho S3 bucket <br>&emsp; + Triển khai API backend để tạo các S3 presigned URLs | 23/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Tích hợp Frontend:** <br>&emsp; + Cập nhật ứng dụng frontend để gọi API lấy presigned URLs và tải tệp trực tiếp lên S3 <br>&emsp; + Xác minh các S3 prefix (cấu trúc thư mục) | 24/06/2026 | 24/06/2026 |  <https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html>|
+| 3 | - **Khởi tạo Lambda:** <br>&emsp; + Tạo hàm Word Import Lambda <br>&emsp; + Thiết lập gói triển khai (deployment package) với các thư viện phân tích (parsing) tệp `.docx` | 25/06/2026 | 25/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - **Logic phân tích & Cơ sở dữ liệu:** <br>&emsp; + Viết logic trên Lambda để phân tích nội dung `.docx` <br>&emsp; + Kết nối Lambda với MongoDB và ánh xạ (map) các schema dữ liệu câu hỏi | 26/06/2026 | 26/06/2026 | <https://docs.aws.amazon.com/lambda/>  |
+| 5 | - **Kiểm thử Toàn trình (End-to-End):** <br>&emsp; + Kiểm thử toàn bộ luồng tải lên và đường ống (pipeline) import bất đồng bộ <br>&emsp; + Xác thực tính toàn vẹn của dữ liệu trong MongoDB | 27/06/2026 | 27/06/2026 | Internal Project Docs |
 
 ### Thành quả Tuần 10:
 * Chuyển đổi thành công luồng tải lên tệp tin chính sang sử dụng S3 presigned URLs, giúp giảm tải lưu lượng truyền tệp nặng cho backend cốt lõi.

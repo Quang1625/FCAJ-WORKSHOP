@@ -22,7 +22,7 @@ During my studies, I participated in four events, each a memorable experience fi
 
 
 
-### [Event 4](4.4-Event2/)  
+### [Event 2](4.2-Event2/)  
 &emsp;**Event Name:** FCAJ Community Day  
 
 &emsp;**Date & Time:** 09:00, June 27, 2026  

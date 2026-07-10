@@ -1,6 +1,6 @@
 ---
 title: "Worklog Week 6"
-date: 2026-05-18
+date: 2026-05-25
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
@@ -13,11 +13,11 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                 | Start Date | Completion Date | Reference Material                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Learn Amazon RDS fundamentals: <br>&emsp; + Managed vs. Unmanaged databases <br>&emsp; + Supported database engines (MySQL, PostgreSQL, etc.)                      | 05/18/2026 | 05/18/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 2   | - **Practice:** <br>&emsp; + Provision a Free Tier Amazon RDS MySQL database <br>&emsp; + Configure VPC and Security Groups to allow inbound database traffic        | 05/19/2026 | 05/19/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Learn Amazon Lightsail basics: <br>&emsp; + Core concepts and predictable pricing <br>&emsp; + When to choose Lightsail vs. Amazon EC2                             | 05/20/2026 | 05/20/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - **Practice:** <br>&emsp; + Launch a virtual private server (VPS) using Lightsail <br>&emsp; + Deploy a pre-configured blueprint (e.g., WordPress or LAMP stack)    | 05/21/2026 | 05/21/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Explore Lightsail networking: <br>&emsp; + Attach a Static IP to the Lightsail instance <br>&emsp; + Review DNS management features within the Lightsail console   | 05/22/2026 | 05/22/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Learn Amazon RDS fundamentals: <br>&emsp; + Managed vs. Unmanaged databases <br>&emsp; + Supported database engines (MySQL, PostgreSQL, etc.)                      | 25/05/2026 | 25/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - **Practice:** <br>&emsp; + Provision a Free Tier Amazon RDS MySQL database <br>&emsp; + Configure VPC and Security Groups to allow inbound database traffic        | 25/05/2026 | 25/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Learn Amazon Lightsail basics: <br>&emsp; + Core concepts and predictable pricing <br>&emsp; + When to choose Lightsail vs. Amazon EC2                             | 26/05/2026 | 26/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - **Practice:** <br>&emsp; + Launch a virtual private server (VPS) using Lightsail <br>&emsp; + Deploy a pre-configured blueprint (e.g., WordPress or LAMP stack)    | 27/05/2026 | 27/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Explore Lightsail networking: <br>&emsp; + Attach a Static IP to the Lightsail instance <br>&emsp; + Review DNS management features within the Lightsail console   | 28/05/2026 | 28/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 6 Achievements:
 * Understood the benefits of managed database services and the administrative tasks that Amazon RDS automates.
