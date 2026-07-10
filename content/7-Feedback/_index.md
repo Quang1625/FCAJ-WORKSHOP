@@ -1,47 +1,47 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-07-05
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
 
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+I find the work environment here very friendly and welcoming. Everyone is always ready to support and help each other with learning and practice. The learning space is very neat, comfortable, and fully equipped. The program also includes meetings for networking and learning, which helps me better understand the work processes within the company.
 
 **2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+The mentors are very enthusiastic in supporting the students participating in the program. Whenever students need information about the program or have questions, they are always ready to assist. The admin team also provides support, explains procedures and study materials, and creates the best possible learning environment. I also appreciate their approach; instead of giving step-by-step instructions, the mentors often suggest solutions and offer support if I have any questions.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+The knowledge and skills I learned and practiced in the bootcamp were quite similar to my major at school. Participating in the program helped me broaden my knowledge of cloud services, and also provided me with many tools to better understand those services. It helped me understand how to apply theories and tools to projects.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+During my time in the program, I learned many new skills, such as familiarizing myself with AWS Cloud services, and I also learned about the workflow in a business environment. Throughout the course, the mentors also frequently held meetings to share practical experiences, helping me prepare the knowledge and skills to meet the needs of businesses after graduation.
 
 **5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+I felt the learning environment fostered a strong spirit of cooperation among everyone. Throughout the bootcamp, the mentors and fellow students were very supportive, actively sharing knowledge and exchanging ideas when difficulties arose. Thanks to this, I was able to absorb a lot of new information.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+The program creates quite good conditions for students to participate. Everyone is provided with sufficient materials to study and enthusiastic guidance from mentors. In addition, the program also has knowledge or experience sharing sessions, helping me better understand business requirements to have the best preparation after graduation.
 
 ---
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+- What did you find **most satisfying** during your internship?
+I really appreciate the enthusiastic support and answers from the mentors when I encountered difficulties in my studies.  
+- What do you think the company **should improve** for future interns?
+I think there should be more opportunities for interaction among the students.
+- If recommending to a friend, would you **suggest they intern here**? Why or why not?
+Yes. Because the program helps students learn a lot of new knowledge, receive enthusiastic guidance, and have the opportunity to become familiar with new technologies.  
 
 ---
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
+- Do you have any suggestions to improve the internship experience?
+I hope there will be more opportunities for interaction and learning between students and mentors.  
+- Would you like to continue this program in the future?
+Yes. If given the opportunity, I would still like to continue this program to gain more knowledge.  
 - Any other comments (free sharing):
