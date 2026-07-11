@@ -72,6 +72,8 @@ Attending the event provided me with a comprehensive and realistic view of caree
 - Technological tools may constantly change in the market, but foundational knowledge and a curious learning mindset will always retain their value.
 - To reach the peak of one's career (Super Star), one must not only solve current technical problems but also build strategic vision and train the next generation of system thinkers.
 #### Some photos from the event
-![Picture 1](/images/event2(1).jpg)
-![Picture 2](/images/event2(2).jpg)
-![Picture 3](/images/event2(3).jpg)
+![Picture 1](/images/event21.jpg)
+![Picture 2](/images/event22.jpg)
+![Picture 3](/images/event23.jpg)
+![Picture 4](/images/event24.jpg)
+
