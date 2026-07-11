@@ -71,3 +71,7 @@ Attending the event provided me with a comprehensive and realistic view of caree
 - A good engineer thinks systematically rather than focusing on isolated tasks, and knows how to make things clearer and easier for the whole team.
 - Technological tools may constantly change in the market, but foundational knowledge and a curious learning mindset will always retain their value.
 - To reach the peak of one's career (Super Star), one must not only solve current technical problems but also build strategic vision and train the next generation of system thinkers.
+#### Some photos from the event
+![Picture 1](/images/event2(1).jpg)
+![Picture 2](/images/event2(2).jpg)
+![Picture 3](/images/event2(3).jpg)
