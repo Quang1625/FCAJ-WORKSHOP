@@ -27,11 +27,11 @@ pre: " <b> 1.3. </b> "
 
 ### Kết quả đạt được tuần 3:
 
-| Thứ | Công việc | Kết quả đạt được | Hình ảnh |
-| --- | --- | --- | --- |
-| 2 | Cấu hình Xác thực đa yếu tố (MFA) | Cấu hình thành công Xác thực đa yếu tố (MFA) cho môi trường tài khoản, tăng cường lá chắn bảo mật cho hệ thống. | ![MFA](image.png) |
-| 3 | Quản lý tài khoản & phân quyền IAM | Đảm bảo an toàn cho Root User bằng cách vô hiệu hóa các access key đang hoạt động. Quản lý và phân phối quyền hạn cho tài khoản phụ truc-user trong nhóm Admin-groups phục vụ vận hành hàng ngày đúng quy định. | ![IAM](image-3.png) |
-| 4 | Lý thuyết nền tảng Amazon VPC | Hiểu rõ bản chất cô lập logic của Virtual Private Cloud (VPC) để phân tách các môi trường phát triển (dev, test, production). Làm chủ việc phân chia không gian mạng thành public subnet và private subnet. | _(Sơ đồ kiến trúc mạng Amazon VPC)_ |
-| 5 | Nghiên cứu cơ chế định tuyến mạng | Thấu hiểu cơ chế hoạt động của Default route table và Custom route table. Biết cách sử dụng Internet Gateway để mở cổng kết nối internet hướng ra ngoài và cách NAT Gateway giúp kết nối an toàn cho tài nguyên private subnet một chiều. | _(Hình minh họa cấu hình định tuyến hệ thống)_ |
-| 6 | Lập kế hoạch phân bổ tài nguyên hạ tầng | Xác định rõ ràng các tham số kỹ thuật, dải CIDR 10.0.0.0/16 và lập kế hoạch liên kết rõ ràng cho các thành phần mạng trước khi triển khai thực tế trên console. | _(Hình minh họa bảng phân bổ IP bài Lab)_ |
-| 7 | Triển khai thực tế Lab 03 (VPC deployment) | Khởi tạo thành công mạng ảo tên là truc-vpc (IPv4 CIDR 10.0.0.0/16). Hoàn tất cấu hình chi tiết cho truc-public-subnet1 và truc-private-subnet1. Gắn cổng truc-igw, tạo bảng định tuyến truc-route-Public1 và thiết lập hai security groups cho phép quản lý an toàn các giao thức SSH, Ping và HTTP. | ![Your VPCs](image-1.png) ![Subnets](image-2.png) |
+| Thứ | Công việc | Kết quả đạt được | 
+| --- | --- | --- | 
+| 2 | Cấu hình Xác thực đa yếu tố (MFA) | Cấu hình thành công Xác thực đa yếu tố (MFA) cho môi trường tài khoản, tăng cường lá chắn bảo mật cho hệ thống. |
+| 3 | Quản lý tài khoản & phân quyền IAM | Đảm bảo an toàn cho Root User bằng cách vô hiệu hóa các access key đang hoạt động. Quản lý và phân phối quyền hạn cho tài khoản phụ truc-user trong nhóm Admin-groups phục vụ vận hành hàng ngày đúng quy định. |
+| 4 | Lý thuyết nền tảng Amazon VPC | Hiểu rõ bản chất cô lập logic của Virtual Private Cloud (VPC) để phân tách các môi trường phát triển (dev, test, production). Làm chủ việc phân chia không gian mạng thành public subnet và private subnet. |
+| 5 | Nghiên cứu cơ chế định tuyến mạng | Thấu hiểu cơ chế hoạt động của Default route table và Custom route table. Biết cách sử dụng Internet Gateway để mở cổng kết nối internet hướng ra ngoài và cách NAT Gateway giúp kết nối an toàn cho tài nguyên private subnet một chiều. |
+| 6 | Lập kế hoạch phân bổ tài nguyên hạ tầng | Xác định rõ ràng các tham số kỹ thuật, dải CIDR 10.0.0.0/16 và lập kế hoạch liên kết rõ ràng cho các thành phần mạng trước khi triển khai thực tế trên console. |
+| 7 | Triển khai thực tế Lab 03 (VPC deployment) | Khởi tạo thành công mạng ảo tên là truc-vpc (IPv4 CIDR 10.0.0.0/16). Hoàn tất cấu hình chi tiết cho truc-public-subnet1 và truc-private-subnet1. Gắn cổng truc-igw, tạo bảng định tuyến truc-route-Public1 và thiết lập hai security groups cho phép quản lý an toàn các giao thức SSH, Ping và HTTP. |

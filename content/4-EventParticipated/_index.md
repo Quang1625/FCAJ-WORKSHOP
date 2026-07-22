@@ -28,8 +28,6 @@ During my studies, I participated in four events, each a memorable experience fi
 &emsp;**Role:** Attendee  
 
 
-
-
 ### [Event 3](4.3-Event3/)  
 &emsp;**Event Name:** FCAJ Community Day  
 

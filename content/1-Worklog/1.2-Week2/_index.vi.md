@@ -16,7 +16,6 @@ pre: " <b> 1.2. </b> "
 ---
 
 ###  Các công việc cần triển khai trong tuần này
-
 | Thứ | Hạng mục công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu tham khảo |
 | :---: | :--- | :---: | :---: | :--- |
 | **3** | - Tìm hiểu giao diện AWS Management Console <br> - Cài đặt và cấu hình AWS CLI trên máy tính cá nhân (*Access Key, Secret Key, Default Region*) <br> - Thực hành: Sử dụng các lệnh AWS CLI cơ bản | 28/04/2026 | 28/04/2026 | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
@@ -27,8 +26,8 @@ pre: " <b> 1.2. </b> "
 
 ###  Kết quả đạt được tuần 2
 
-| Thứ | Hạng mục | Kết quả đạt được chi tiết | Minh chứng / Hình ảnh |
-| :---: | :--- | :--- | :---: |
-| **3** | **Tương tác & Cấu hình CLI** | Học **Module 1 (Phần 2: Cách Thức Tương Tác Với AWS)**: <br> Hiểu rõ 3 cách điều khiển dịch vụ của AWS: <br> - **AWS Management Console**: Giao diện Web. Phân biệt tài khoản *Root User* (bảo mật với MFA, không dùng hằng ngày) và *IAM User* (tài khoản phụ dùng hằng ngày với ID riêng). <br> - **AWS CLI**: Giao diện dòng lệnh giúp thao tác nhanh. Đã cài đặt hoàn chỉnh trên máy, cấu hình *Access Key* và *Secret Key* an toàn (không push lên GitHub). <br> - **AWS SDK**: Bộ công cụ lập trình (Python, Java...) gọi API trực tiếp từ code. | *(Hình ảnh terminal CLI hoặc file config)* |
-| **4** | **Kiến trúc máy chủ EC2** | Nắm vững lý thuyết về *Instance types*, các loại *AMI*, ổ lưu trữ *EBS* và các cơ chế định tuyến IP, bảo mật hệ thống thông qua *SSH Key Pair*. | *(Hình ảnh giao diện EC2 Console)* |
-| **5** | **Thực hành Lab triển khai** | Khởi tạo thành công máy chủ EC2, tạo và gắn thêm EBS volume, kết nối SSH từ máy cá nhân ổn định; kết hợp quản lý tài nguyên song song qua cả Console & CLI. | *(Hình ảnh SSH thành công vào EC2)* |
+| Thứ | Hạng mục | Kết quả đạt được chi tiết |
+| :---: | :--- | :--- |
+| **3** | **Tương tác & Cấu hình CLI** | Học **Module 1 (Phần 2: Cách Thức Tương Tác Với AWS)**: <br> Hiểu rõ 3 cách điều khiển dịch vụ của AWS: <br> - **AWS Management Console**: Giao diện Web. Phân biệt tài khoản *Root User* (bảo mật với MFA, không dùng hằng ngày) và *IAM User* (tài khoản phụ dùng hằng ngày với ID riêng). <br> - **AWS CLI**: Giao diện dòng lệnh giúp thao tác nhanh. Đã cài đặt hoàn chỉnh trên máy, cấu hình *Access Key* và *Secret Key* an toàn (không push lên GitHub). <br> - **AWS SDK**: Bộ công cụ lập trình (Python, Java...) gọi API trực tiếp từ code. |
+| **4** | **Kiến trúc máy chủ EC2** | Nắm vững lý thuyết về *Instance types*, các loại *AMI*, ổ lưu trữ *EBS* và các cơ chế định tuyến IP, bảo mật hệ thống thông qua *SSH Key Pair*. |
+| **5** | **Thực hành Lab triển khai** | Khởi tạo thành công máy chủ EC2, tạo và gắn thêm EBS volume, kết nối SSH từ máy cá nhân ổn định; kết hợp quản lý tài nguyên song song qua cả Console & CLI. |
