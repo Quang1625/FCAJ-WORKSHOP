@@ -26,9 +26,9 @@ pre: " <b> 1.2. </b> "
 
 ###  Week 2 Achievements
 
-| Day | Task | Detailed Achievement | Proof / Image |
-| :---: | :--- | :--- | :---: |
-| **Tue** | **Communication Methods & CLI Setup** | Completed **Module 1 (Part 2: Interacting with AWS)**: <br> Learned 3 main ways to control the AWS system: <br> - **AWS Management Console**: Intuitive web interface. Clearly distinguished the difference between the *Root User* (used only when absolutely necessary, strictly protected with MFA) and the *IAM User* (an account with flexibly assigned permissions for daily tasks). <br> - **AWS CLI**: Command-line tool for quick operations and automation scripting. Safely configured on the local machine (strictly do not publicize Access/Secret Keys on GitHub). <br> - **AWS SDK**: Library suites (Python, Java, etc.) for developers to integrate API calls directly into source code. | *(CLI configuration terminal illustration)* |
-| **Wed** | **EC2 Service Architecture** | Equipped with a solid theoretical foundation on *Instance families*, *AMI structures*, *EBS storage*, *IP routing methods*, and security practices via *SSH Key Pairs*. | *(EC2 Console control interface image)* |
-| **Thu** | **Practical Lab Operations** | Successfully deployed an EC2 virtual server, integrated an additional EBS drive, and maintained a stable SSH connection from the personal computer; became proficient in cross-managing resources between the Web interface and the command line. | *(Successful SSH connection to EC2 illustration)* |
+| Day | Task | Detailed Achievement |
+| :---: | :--- | :--- |
+| **Tue** | **Communication Methods & CLI Setup** | Completed **Module 1 (Part 2: Interacting with AWS)**: <br> Learned 3 main ways to control the AWS system: <br> - **AWS Management Console**: Intuitive web interface. Clearly distinguished the difference between the *Root User* (used only when absolutely necessary, strictly protected with MFA) and the *IAM User* (an account with flexibly assigned permissions for daily tasks). <br> - **AWS CLI**: Command-line tool for quick operations and automation scripting. Safely configured on the local machine (strictly do not publicize Access/Secret Keys on GitHub). <br> - **AWS SDK**: Library suites (Python, Java, etc.) for developers to integrate API calls directly into source code. |
+| **Wed** | **EC2 Service Architecture** | Equipped with a solid theoretical foundation on *Instance families*, *AMI structures*, *EBS storage*, *IP routing methods*, and security practices via *SSH Key Pairs*. |
+| **Thu** | **Practical Lab Operations** | Successfully deployed an EC2 virtual server, integrated an additional EBS drive, and maintained a stable SSH connection from the personal computer; became proficient in cross-managing resources between the Web interface and the command line. |
 
