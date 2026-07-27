@@ -25,17 +25,17 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 12/7/2026
 
-![Ảnh đại diện của bạn](/images/avt.png)
+![Your profile picture](/images/avt.jpg)
 
 
 
 ### Nội dung báo cáo
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
+1.  [Nhật ký công việc](1-Worklog/)
+2.  [Đề xuất dự án](2-Proposal/)
 3.  [Các bài blogs đã đăng](3-BlogsPosted/)
-4.  [Các events đã tham gia](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
+4.  [Các sự kiện đã tham gia](4-EventParticipated/)
+5.  [Bài báo cáo workshop](5-Workshop/)
 6.  [Tự đánh giá](6-Self-evaluation/)
 7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
 8.  [Tài liệu tham khảo](8-References/)
